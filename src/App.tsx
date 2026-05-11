@@ -174,9 +174,19 @@ function FeatureBox({ label, title, body }: { label: string; title: string; body
 
 function ShareImporter() {
   const navigate = useNavigate()
-  const setTalks = useScheduleStore((s) => s.setTalks)
-  const setDisplayName = useScheduleStore((s) => s.setDisplayName)
+  const importAsOwn = useScheduleStore((s) => s.importAsOwn)
   const addFriend = useScheduleStore((s) => s.addFriend)
+  /**
+   * Truthy when the current device already has user-owned state worth
+   * warning about before we overwrite — talks, customs, overrides, or a name.
+   */
+  const hasExistingPlan = useScheduleStore(
+    (s) =>
+      s.selectedTalkIds.length > 0 ||
+      s.customEntries.length > 0 ||
+      s.overrides.length > 0 ||
+      s.displayName.trim().length > 0,
+  )
   const [pending, setPending] = useState<{ name: string; talkIds: string[]; custom?: import('@/lib/urlState').CustomEntry[]; overrides?: import('@/lib/urlState').AttendanceOverride[] } | null>(null)
 
   useEffect(() => {
@@ -221,6 +231,33 @@ function ShareImporter() {
               <button
                 type="button"
                 onClick={() => {
+                  // Cross-device sync is the primary path. Only warn when there
+                  // is something to overwrite — on a fresh device, just import.
+                  if (
+                    hasExistingPlan &&
+                    !confirm(
+                      'Це замінить твій поточний план: усі доповіді, перерви та позначки часткової присутності. Продовжити?',
+                    )
+                  ) {
+                    return
+                  }
+                  importAsOwn({
+                    name: pending.name,
+                    talkIds: pending.talkIds,
+                    custom: pending.custom,
+                    overrides: pending.overrides,
+                  })
+                  close()
+                  navigate('/my')
+                }}
+                className="inline-flex items-center gap-1.5 rounded-md bg-foreground text-background px-3 py-1.5 text-xs font-medium hover:opacity-90"
+              >
+                <Star className="size-3.5" />
+                Зберегти як свій план
+              </button>
+              <button
+                type="button"
+                onClick={() => {
                   addFriend({
                     name: pending.name,
                     talkIds: pending.talkIds,
@@ -230,24 +267,10 @@ function ShareImporter() {
                   close()
                   navigate('/friends')
                 }}
-                className="inline-flex items-center gap-1.5 rounded-md bg-foreground text-background px-3 py-1.5 text-xs font-medium hover:opacity-90"
-              >
-                <Users className="size-3.5" />
-                Зберегти як друга
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  if (confirm('Замінити твій поточний план на цей?')) {
-                    setTalks(pending.talkIds)
-                    setDisplayName(pending.name)
-                    close()
-                    navigate('/my')
-                  }
-                }}
                 className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium hover:bg-accent"
               >
-                Завантажити як мій
+                <Users className="size-3.5" />
+                Додати як друга
               </button>
               <button
                 type="button"
