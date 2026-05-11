@@ -22,7 +22,8 @@ import { cn } from '@/lib/utils'
 type DayNum = 1 | 2 | 3
 
 // Pixel scale: 1 minute === MINUTE_PX vertical pixels.
-const MINUTE_PX = 2.6 // 30min → 78px
+// 3.6 → 25min ≈ 90px (enough for title + speakers), 30min ≈ 108px, 55min ≈ 198px.
+const MINUTE_PX = 3.6
 
 export default function Timeline() {
   const [day, setDay] = useState<DayNum>(1)

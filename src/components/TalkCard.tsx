@@ -47,7 +47,7 @@ export function TalkCard({ talk, onClick, hasConflict, style, density = 'comfort
       <button
         type="button"
         onClick={onClick}
-        className="flex flex-1 flex-col gap-1.5 px-2.5 py-2 text-left min-h-0"
+        className="flex flex-1 flex-col gap-1 px-2.5 py-1.5 text-left min-h-0"
       >
         {/* meta row */}
         <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider font-semibold text-muted-foreground tabular">
@@ -75,10 +75,10 @@ export function TalkCard({ talk, onClick, hasConflict, style, density = 'comfort
           )}
         </div>
 
-        {/* title */}
+        {/* title — always visible; shrink-0 protects it from being squeezed out by mt-auto speakers */}
         <h3
           className={cn(
-            'font-semibold leading-snug tracking-tight text-foreground/95',
+            'font-semibold leading-snug tracking-tight text-foreground/95 shrink-0',
             isCompact ? 'text-[11px] line-clamp-2' : 'text-[12.5px] sm:text-[13px] line-clamp-3',
           )}
         >
