@@ -4,6 +4,10 @@
 конференції: фільтруй доповіді, відмічай улюблені, ділись планом з друзями
 та завантажуй PDF. Працює офлайн як PWA.
 
+## 🚀 Live
+
+**[yuriiholiuk.github.io/dou-day-2026](https://yuriiholiuk.github.io/dou-day-2026/)**
+
 ## Стек
 
 - **Vite** + **React 19** + **TypeScript**
