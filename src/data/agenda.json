@@ -1,0 +1,2879 @@
+{
+  "event": {
+    "name": "DOU Day 2026",
+    "venue": "Kyiv, Ukraine",
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-05-15",
+        "label": "Day 1"
+      },
+      {
+        "day": 2,
+        "date": "2026-05-16",
+        "label": "Day 2"
+      },
+      {
+        "day": 3,
+        "date": "2026-05-17",
+        "label": "Day 3"
+      }
+    ],
+    "tracks": [
+      "AI",
+      "Business",
+      "Deftech",
+      "Design",
+      "Engineering",
+      "Future",
+      "Gamedev",
+      "Leadership",
+      "Product",
+      "Security"
+    ],
+    "rooms": [
+      "BUSINESS",
+      "CORE",
+      "ENGINE",
+      "FUTURE",
+      "GROWTH",
+      "PODCAST"
+    ],
+    "sourceUrl": "https://ticket.dou.ua/dou-day-2026/agenda",
+    "scrapedAt": "2026-05-11T05:15:23.664Z"
+  },
+  "talks": [
+    {
+      "id": "day1-main-0900-pochatok-reiestratsii-uchasnykiv-0",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "durationMin": 480,
+      "room": "",
+      "roomLabel": "",
+      "title": "Початок реєстрації учасників",
+      "language": "UA",
+      "type": "registration",
+      "speakers": []
+    },
+    {
+      "id": "day1-BUSINESS-1030-iak-it-otrymuvaty-prybutok-v-kryzu-panel-2",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "10:30",
+      "endTime": "11:25",
+      "durationMin": 55,
+      "track": "Business",
+      "tags": [
+        "Business"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Як ІТ отримувати прибуток в кризу. Панельна дискусія",
+      "description": "Разом із лідерами ринку обговоримо, як сервісні й продуктові бізнеси адаптуються до кризи у світовій індустрії та вибуху АІ. Розберемо, як не скорочувати людей, оптимізувати витрати та де шукати ресурс для масштабування, коли ринок «штормить».",
+      "language": "UA",
+      "type": "panel",
+      "speakers": [
+        {
+          "name": "Євген Вигнан",
+          "role": "Співзасновник і COO appflame",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc1OWJkZjFkLWFlY2ItNDBmMy1hMmQ0LWUwOWI5YTczYTU2YSIsInB1ciI6ImJsb2JfaWQifX0=--f5fa0c99c762e2dafb0e4a950ffbdda729e6e4cd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/yevhen_vygnan.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/jake-vygnan/"
+            }
+          ]
+        },
+        {
+          "name": "Олена Самборська",
+          "role": "Managing Director/HR Operations Director",
+          "company": "DXC Luxoft",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA0MjAwMmYxLTAyNzgtNDEwZC04ZDRkLTkyM2Y5MTdmNzZkYyIsInB1ciI6ImJsb2JfaWQifX0=--69de2647449c4384d5f66dba9ccdb2a31e8fb8ac/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/olena_samborska.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/olena-samborska-6b636612?originalSubdomain=ua"
+            }
+          ]
+        },
+        {
+          "name": "Валентин Гриценко",
+          "role": "Chief Marketing Officer Ajax Systems",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNkYTRkNDhlLTU5YzQtNDczOS1hMzI5LTMzY2I0ZGNkMjkzNSIsInB1ciI6ImJsb2JfaWQifX0=--6e3f180fde5e2afc54623765f3760ec1879e51a1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1765747970093.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/valentinehrytsenko/"
+            }
+          ]
+        },
+        {
+          "name": "Андрій Бродецький",
+          "role": "Investment Associate",
+          "company": "Horizon Capital",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjlhN2YxMDIyLWRkYjQtNGFhNS1hM2MyLTU4YWQ5Zjc1N2JhOSIsInB1ciI6ImJsb2JfaWQifX0=--1f3545ab97a95b0d1efba4b56b4accdf93b80f6e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/andriy_brodetskiy.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "facebook",
+              "url": "https://www.facebook.com/andrii.brodetskyi/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1030-khto-potriben-rynku-iak-zminiuietsia-pop-1",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "10:30",
+      "endTime": "11:25",
+      "durationMin": 55,
+      "track": "Future",
+      "tags": [
+        "Future"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Хто потрібен ринку: як змінюється попит в ІТ. Панельна дискусія",
+      "description": "Ринок праці в ІТ змінюється — разом із ним і запит на фахівців.\n\nУ панельній дискусії поговоримо про те, кого шукають компанії сьогодні, які навички стають ключовими та як змінюються вимоги до кандидатів на різних рівнях.",
+      "language": "UA",
+      "type": "panel",
+      "speakers": [
+        {
+          "name": "Влада Зацаринна",
+          "role": "CEO DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJmZDBhM2I4LTRiNjktNDk5Mi1iYTUzLWRjOGE0NDU5YTg4NiIsInB1ciI6ImJsb2JfaWQifX0=--39f73f4adac1ae9324cdc7f086c53c8ab4e03573/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vlada_zatsarinna.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vladaz/"
+            }
+          ]
+        },
+        {
+          "name": "Максим Іщенко",
+          "role": "Фаундер DOU & Djinni",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNkZDQyNjk4LTZkMDEtNGY4Yy1hNDE0LTk5MWY3YTA3ZmYxMSIsInB1ciI6ImJsb2JfaWQifX0=--7f0a66fca202e817d3acc32941d4d50649971801/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/maksym_ishenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/admin/"
+            }
+          ]
+        },
+        {
+          "name": "Артур Міхно",
+          "role": "СЕО та співзасновник Work.ua",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjkyYWEwOTkwLTQ3Y2YtNGEyNC04ZmEyLTEzZjc2NWZlNDc5ZCIsInB1ciI6ImJsb2JfaWQifX0=--01482da3be3ab44cc9292a8fd5cc041161d5a550/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/arthur_mikhno.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "facebook",
+              "url": "https://www.facebook.com/artur.mikhno/"
+            }
+          ]
+        },
+        {
+          "name": "Ася Артушевська",
+          "role": "головна редакторка DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUyZGMyNDA4LTE3NjgtNGE4My1iMTJmLWY3Y2FlNjkyZjA4MCIsInB1ciI6ImJsb2JfaWQifX0=--30b9527ca5ffa22b363b8ca6f8591a967b9ad4ef/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1766140699744.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/asya-artushevska/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1030-llm-evaluation-in-production-pidkhody-me-4",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "10:30",
+      "endTime": "10:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "LLM Evaluation in Production: підходи, метрики і процеси побудови AI-систем, яким можна довіряти",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ірина Микитин",
+          "role": "CTO & Founder COXIT",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImVjOTM0Y2M0LTE5OWQtNDYyMS04NDRkLTY3MzI3OWNjZmI4OCIsInB1ciI6ImJsb2JfaWQifX0=--ac0846b1a3a79690b45d3c34d89ddc2fa014a216/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/iryna_mykytyn.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/irynamykytyn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-PODCAST-1030-zapys-podkastu-ut-2-3",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "durationMin": 90,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "PODCAST",
+      "roomLabel": "PODCAST, -1 поверх",
+      "title": "Запис подкасту УТ-2",
+      "language": "UA",
+      "type": "podcast",
+      "speakers": [
+        {
+          "name": "Юрко Федоренко",
+          "role": "Програмний директор",
+          "company": "УТ-2",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY4NDgxMzRjLTNmNzMtNDUzYi04OTg1LTEzNTAxM2Q1OGFiNyIsInB1ciI6ImJsb2JfaWQifX0=--644c05cbee4841536c238850d14d76600ffc13d0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-13%2010.43.49.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/djamah/"
+            }
+          ]
+        },
+        {
+          "name": "Євген Ковалевський",
+          "role": "VP of Engineering",
+          "company": "LetyShops",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc5ZGExYzNmLTJlYjktNDdhNi1iMDE5LTMyNDdkOTE4Y2FhMSIsInB1ciI6ImJsb2JfaWQifX0=--98f59e32659fa80f68c36328da45c944b953f68a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1758199941578.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/yevhen-kovalevskiy-33174155/"
+            }
+          ]
+        },
+        {
+          "name": "Олександр Соловйов",
+          "role": "СТО",
+          "company": "Хрущ",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE2YzMzYzk1LTllNTktNGFkNC05ODIzLTkwZTY0ODkzODdmNSIsInB1ciI6ImJsb2JfaWQifX0=--83a6017139e529daf321510790185c0b48c9a9a6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-14%2008.35.45.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/asolovyov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1100-ne-z-nulia-inzhenerni-vyklyky-pobudovy-p-7",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "11:00",
+      "endTime": "11:25",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "НЕ З НУЛЯ: Інженерні виклики побудови продукту через M&A",
+      "description": "Тема інтеграції придбаних продуктів (M&amp;A) є критичною для швидкозростаючого бізнесу, але часто залишається «сірою зоною» для інженерів. Спікер має унікальний досвід роботи з обох сторін: як CTO придбаного стартапу та як технічний лідер, що керує інтеграцією нових продуктів у компанії Aura.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ігор Безпалий",
+          "role": "VP of Engineering",
+          "company": "Aura",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ3MTY1ZjgwLWE3YmItNDY3Zi04YzI1LThiMjA4NDZiOGU2MCIsInB1ciI6ImJsb2JfaWQifX0=--51791e460087346007628ecf1d3463a832ae1fc8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_8599.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/igor-bezpaliy/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1100-in-house-proty-off-the-shelf-iakyi-rushi-5",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "11:00",
+      "endTime": "11:25",
+      "durationMin": 25,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "In-house проти off-the-shelf. Який рушій краще використовувати для створення гри",
+      "description": "Інструментів для створення ігор сьогодні чимало, але головне питання залишається відкритим: на чому фокусуватися розробнику? Що краще для кар'єри та роботи — перевірені «готові» рушії на кшталт Unreal Engine чи потужні внутрішні рішення студій, як-от 4A Engine? Цього разу на нашій конференції два досвідчених девелопери зійдуться в дискусії, щоб з’ясувати, за яким підходом майбутнє і хто з них зрештою має рацію.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Денис Мехед",
+          "role": "Lead Programmer у 4A Games",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImY1MGY0NzE2LTJlZmUtNGFjZC1hNDZmLTViMWM1NjlmY2UzOSIsInB1ciI6ImJsb2JfaWQifX0=--76b43d84569907c4c84d85b60a148d5e2a7cb211/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/denis%20mehed.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/denys-mekhed-13381aab/"
+            }
+          ]
+        },
+        {
+          "name": "Олександр Плічко",
+          "role": "Tech Expert у Wargaming",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjdhMzI1ZDE4LWI2YjItNGYwYi04ZGU0LWJkZDdiOWYzNDE4NiIsInB1ciI6ImJsb2JfaWQifX0=--5eb46488d6854417cfb6c2979c0b671a91595b96/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/plichko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oleksandr-plichko-403b8a4/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-GROWTH-1100-vorkshop-stvorennia-multyahentnykh-llm-s-6",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "durationMin": 90,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Створення мультиагентних LLM-симуляцій, або Як запустити свою кишенькову «Матрицю»",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "Олесь Петрів",
+          "role": "CTO & Co-founder Reface",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNlODMzOGJiLTZlYzYtNGIyZC04MTRhLWE5NWZiNWE5OTJkZCIsInB1ciI6ImJsb2JfaWQifX0=--366170156b2e7fd0f9d55101652b1adfd655ece7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/OZR_5836-retouched.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oles-petriv-26987b15/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1130-bezperervna-atestatsiia-kiberbezpeky-v-o-8",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "11:30",
+      "endTime": "11:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "Security"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Безперервна атестація кібербезпеки в оборонних системах",
+      "description": "Сучасні оборонні системи — це десятки й сотні взаємопов’язаних компонентів: API, data pipelines, веб- і мобільні застосунки, сенсори та роботизовані платформи. Вони часто базуються на цивільних технологіях і обмінюються даними майже в реальному часі.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Анастасія Войтова",
+          "role": "Head of Security Engineering",
+          "company": "Cossack Labs",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY1MWFhNzYxLTE2YzEtNGZjNS04YjVhLTdkMTYxYzkwYWNhNyIsInB1ciI6ImJsb2JfaWQifX0=--64d880630e48e78f16594256dd1277ab53622a01/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/anastasiya_voytova.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://ua.linkedin.com/in/anastasiiavoitova"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1130-cursor-ta-claude-code-dlia-prodaktiv-iak-9",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "11:30",
+      "endTime": "11:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Cursor та Claude Code для продактів: як вийти за межі ChatGPT",
+      "description": "Спікер зазначить, що багато продактів обмежуються базовим використанням ChatGPT для простих задач і не рухаються далі через уявну складність інструментів.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олег Мельничук",
+          "role": "Technical Product Manager",
+          "company": "Artellence",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ0Yjk4NDU5LThmYzItNDcyMS04YjM3LTAwYmZjNWRjNmJmYiIsInB1ciI6ImJsb2JfaWQifX0=--bcceb46aeae168bee8d141f11ae17e51c039b526/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/7A4A2059%20(2)-min%201.png?event_slug=dou-day-2026"
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1200-arkhitektor-vs-timlid-khto-naspravdi-vyz-10",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:00",
+      "endTime": "12:25",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Архітектор vs Тімлід: Хто насправді визначає дизайн системи у 2026",
+      "description": "В індустрії існує ілюзія: архітектор малює «квадратики», а програмісти просто кодять. Але в реальності аутсорсу архітектор — це часто технічний пресейл, а в продукті — «хранитель легасі».",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Сергій Немчинський",
+          "role": "Founder & CEO",
+          "company": "FoxxmindEd",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ1NjA0NDIwLWNjZjMtNGYzMy05NjdlLTViOTUwYmIyZjkzMyIsInB1ciI6ImJsb2JfaWQifX0=--a8963f9a883cffa37fc9b71a58ab1ade35898b87/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/serhiy_nemchinskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/sergey-nemchinsky/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1200-product-management-u-kosmosi-iak-pobuduv-11",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:00",
+      "endTime": "12:25",
+      "durationMin": 25,
+      "track": "Product",
+      "tags": [
+        "Product",
+        "Business"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Product Management у космосі: як побудувати Sustainability-продукт на супутникових даних",
+      "description": "Спікерка розкриє актуальну тему sustainability, поділившись практичним досвідом створення продукту на глобальному ринку. Йдеться про моделювання змін у навколишньому середовищі, зокрема вмісту органічного вуглецю в ґрунті, за допомогою супутникових даних та аналітики — складної задачі, яку команда змогла значно спростити технологічно.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Регіна Уразманова",
+          "role": "Senior Product Manager",
+          "company": "EOS Data Analytics",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY1YTJkMzE0LWI2YjYtNDRjYS1hN2U0LTk5YzRhZWYzYjM1NCIsInB1ciI6ImJsb2JfaWQifX0=--89ce9eb89216361a67e92f138aa33a8d091b1a1b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/regina.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/regina-urazmanova/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-BUSINESS-1230-bulbashka-lusne-pohliad-investora-na-ai--13",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:30",
+      "endTime": "12:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Business",
+        "Future"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Бульбашка лусне? Погляд інвестора на АІ-ринок",
+      "description": "Чим бум навколо штучного  інтелекту нагадує бульбашку доткомів і чи чекає на нього такий самий крах? Чи варто бізнесу боятися перегріву ринку? Своїм баченням поділиться Андрій Бродецький, фахівець з Horizon Capital, який безпосередньо працює з венчурними інвестиціями, Практичні інсайти про те, як сьогодні оцінювати проєкти майбутнього.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Андрій Бродецький",
+          "role": "Investment Associate",
+          "company": "Horizon Capital",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjlhN2YxMDIyLWRkYjQtNGFhNS1hM2MyLTU4YWQ5Zjc1N2JhOSIsInB1ciI6ImJsb2JfaWQifX0=--1f3545ab97a95b0d1efba4b56b4accdf93b80f6e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/andriy_brodetskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "facebook",
+              "url": "https://www.facebook.com/andrii.brodetskyi/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1230-shcho-robyty-biznesu-v-eru-ai-12",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:30",
+      "endTime": "13:25",
+      "durationMin": 55,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Leadership",
+        "Future",
+        "Business"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Що робити бізнесу в еру АІ",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Тарас Кицмей",
+          "role": "Співзасновник SoftServe",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQ3NTBiNzI2LWI0M2UtNDZmZi1iMDNiLWYwNGU2OWUyNzg0MCIsInB1ciI6ImJsb2JfaWQifX0=--4ee0ff8036151d73b80d6f4e401b6a76e65d297b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Kytsmey---01.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/taras-kytsmey-1443064/"
+            }
+          ]
+        },
+        {
+          "name": "Віталій Седлер",
+          "role": "CEO/Co-founder Intellias",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgzNTNmMTI1LTdjZjYtNGU5ZS04NDQ1LTQ4Yzg1YmEyMzAyMiIsInB1ciI6ImJsb2JfaWQifX0=--bb1db3f2f53df595183265dda07eeb0667481219/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vitaliy_sedler.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vitaly-sedler-0b507a2/"
+            }
+          ]
+        },
+        {
+          "name": "Тетяна Лукинюк",
+          "role": "Директорка Google Україна",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJlZWJkZGJlLTIxZTQtNDBiMS04MTJjLWMxMWYzYzM2OGU1NyIsInB1ciI6ImJsb2JfaWQifX0=--a3d8206c29f2f7254be722790bdeabedca2d60d7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/tetyana_lukiniuk.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/lukinyuk/"
+            }
+          ]
+        },
+        {
+          "name": "Влада Зацаринна",
+          "role": "CEO DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJmZDBhM2I4LTRiNjktNDk5Mi1iYTUzLWRjOGE0NDU5YTg4NiIsInB1ciI6ImJsb2JfaWQifX0=--39f73f4adac1ae9324cdc7f086c53c8ab4e03573/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vlada_zatsarinna.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vladaz/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1230-zbochennia-vs-pokrashchennia-na-proiekta-15",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:30",
+      "endTime": "12:55",
+      "durationMin": 25,
+      "track": "Leadership",
+      "tags": [
+        "Leadership"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Збочення VS покращення на проєктах",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олександра Ковальова",
+          "role": "Senior QA Consultant Certified Unicorns",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE3ZTQyNTRlLTVlMjAtNDhkOC1hM2FhLTcwZjUwNDQ1NzlkOCIsInB1ciI6ImJsb2JfaWQifX0=--dc376ae2b6bb87e3dcce68cd9b4e01362bb0cc83/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Kovalova.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/alexandra-kovalyova"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1230-low-code-mahiia-dlia-pm-buduiemo-skladni-14",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:30",
+      "endTime": "12:55",
+      "durationMin": 25,
+      "track": "Product",
+      "tags": [
+        "Product"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Low-code магія для PM: будуємо складні workflow в n8n без розробників",
+      "description": "На виступі розберемо n8n — інструмент, який дає PM-у суперсилу створювати складні автоматизації та AI-агентів без допомоги розробників. Ви дізнаєтеся, як нарешті вирватися з операційки на прикладі трьох реальних кейсів: від автоаналізу фідбеку за допомогою AI до моніторингу конкурентів та звітності, що збирається сама. Я поділюся досвідом запуску n8n (self-hosted vs cloud), розкажу, як «продати» цей інструмент вашому CTO, і дам покроковий план, щоб ви могли зібрати свій перший workflow вже сьогодні.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Владислав Бутенко",
+          "role": "Senior Product Manager",
+          "company": "WebPros",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjFjNTZkZDRkLTQ3NjUtNDZiMy1iYTcyLTlkOTYxMTZiOWUxYSIsInB1ciI6ImJsb2JfaWQifX0=--093407325ea3ca43e2b301000902a1caed5c3f8f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_7160.JPG?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://ua.linkedin.com/in/vladyslav-butenko"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-GROWTH-1240-vorkshop-ai-iakyi-dyvytsia-rylsy-za-vas--16",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "12:40",
+      "endTime": "14:10",
+      "durationMin": 90,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: АІ, який дивиться рилси за вас і знає, чому вони (не) залітають",
+      "description": "Зберемо Telegram-бота, який приймає посилання на будь-який Instagram Reels і за 30 секунд вертає глибокий розбір: що спрацювало в хуку, візуалі, подачі та наративі — або чому не спрацювало. Під капотом — n8n, FFmpeg, Whisper і Claude Vision API. Live demo з рілсами від аудиторії included!",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "Ганна Пилєва",
+          "role": "CEO Data Loves Academy",
+          "company": "Machine Learning Engineer",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3NDc4Yjc1LWI3MWMtNGY1YS1hMTY3LTBiZDEzNjkxMTdmZSIsInB1ciI6ImJsb2JfaWQifX0=--ce3f661af61b8fd36cee98b224639cec35aaa432/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/wtech200%20(1).jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/hanna-pylieva/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-BUSINESS-1300-blits-interviu-z-kerivnykamy-uklon-18",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "13:00",
+      "endTime": "13:25",
+      "durationMin": 25,
+      "track": "Business",
+      "tags": [
+        "Business"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Бліц-інтерв'ю з керівниками Uklon",
+      "description": "Відверта розмова про те, як трансформується компанія зсередини і що змінилося для ІТ-фахівців через рік після угоди з Київстаром.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Віталій Дятленко",
+          "role": "співзасновник",
+          "company": "співвласник, член Наглядової ради Uklon",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVjMWUyYjljLWI4ZWMtNGNmMi05MzQyLTJkNDU3NTJkMjczYiIsInB1ciI6ImJsb2JfaWQifX0=--64e36b2ce376fa8b928509f94c1a5793ddd1b676/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/diatlenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vitalii-diatlenko/"
+            }
+          ]
+        },
+        {
+          "name": "Сергій Гришков",
+          "role": "CEO Uklon",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk4ZTM5M2M2LWNhOTEtNGI0NC04MTg5LWQ4MjZmNjYzOTZkNiIsInB1ciI6ImJsb2JfaWQifX0=--c555de4b4550542dadf5258ba3e4f86394b3395b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/hryshkov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/sergey-grishkov/"
+            }
+          ]
+        },
+        {
+          "name": "Ася Артушевська",
+          "role": "головна редакторка DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUyZGMyNDA4LTE3NjgtNGE4My1iMTJmLWY3Y2FlNjkyZjA4MCIsInB1ciI6ImJsb2JfaWQifX0=--30b9527ca5ffa22b363b8ca6f8591a967b9ad4ef/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1766140699744.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/asya-artushevska/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1300-product-bingo-17",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "13:00",
+      "endTime": "13:55",
+      "durationMin": 55,
+      "track": "Product",
+      "tags": [
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Product Bingo",
+      "description": "Інтерактивний формат для продуктової спільноти, де учасники отримують bingo-картки з типовими ситуаціями, фразами та мемами зі світу продукту.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Яр Бірзул",
+          "role": "CEO Checkbox",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM4ZTU2OWNjLWZiM2EtNGE4Mi05MTllLTMzM2JmZDA4OWMzZSIsInB1ciI6ImJsb2JfaWQifX0=--efb300a1f455fdbe11942796bd28c3af95a61095/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-20%2011.32.36.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/birzool/"
+            }
+          ]
+        },
+        {
+          "name": "Олексій Попов",
+          "role": "Head of Product",
+          "company": "OBRIO",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFjNjA5Y2Y3LTUxMDAtNDdjMi1hNzg1LThlOTkyZjQ2ODk1OSIsInB1ciI6ImJsb2JfaWQifX0=--b05affbcafa69257d544170802646b498dbcb234/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_9242%201.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oleksiipopovua/"
+            }
+          ]
+        },
+        {
+          "name": "Ольга Шаповалова",
+          "role": "CEO AddMile (Headway Inc)",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYyNmRmZjI2LWJjMTAtNGUzOC1hZGNkLWY3NDlmM2U1Mjg4YSIsInB1ciI6ImJsb2JfaWQifX0=--092b2bebf93cd3ceed007c2428e85b4bc35b3085/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0%20%D0%A8%D0%B0%D0%BF%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0_Headway%20Inc.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/olga-shapovalova-07b16949/"
+            }
+          ]
+        },
+        {
+          "name": "Даша Гончарук",
+          "role": "Head of Events & YouTube",
+          "company": "DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJhMDdkNGVmLWNhNGEtNDIzMi04NzViLTU0Y2FiYWMxZDM1NyIsInB1ciI6ImJsb2JfaWQifX0=--3251e834b22625d2893f5f17f499253e775bc32b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_8231%20(1)%201.png?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/rozfokuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1300-iak-my-stvoryly-ai-instrument-iakyi-nam--19",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "13:00",
+      "endTime": "13:25",
+      "durationMin": 25,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Як ми створили AI-інструмент, який нам самим був потрібен",
+      "description": "AI у графіці обіцяє швидкість і production-ready якість без багів. Та в реальності часто створює нові проблеми: розірвані пайплайни, десятки інструментів, втрата контролю і більше ручної роботи, ніж до автоматизації. У цій доповіді ми поговоримо не тільки про те, що AI вирішує, але й про те, які проблеми він створює в продакшені — і як з цим працювати. Ми розкажемо, як команда художників у геймдеві не просто адаптувалася до AI, а “приручила” його під свої процеси і створила власний інструмент ABrush, побудований навколо реальних потреб художників.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Анна Колодійська",
+          "role": "AI Creative Director",
+          "company": "AB Games",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYwMTZiZWYyLTEwMjYtNDljYy1hOTczLWFhNDQyMTk0NzA3MCIsInB1ciI6ImJsb2JfaWQifX0=--f34be36052d108da9e633afeccd598883405f3c4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Kolodiiska_Anna.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/%D0%B0%D0%BD%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BB%D0%BE%D0%B4%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0-10667313b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            }
+          ]
+        },
+        {
+          "name": "Дмитро Кабицький",
+          "role": "AI Art Developer",
+          "company": "AB Games",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg4YTFmMTdlLTA3MzItNDVhZi1hZDA3LTgzODI1Njk3NDEwNyIsInB1ciI6ImJsb2JfaWQifX0=--c3dce4014c9130201f763deb544e3ba1c30ec3b1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Kabytskyi_Dmytro.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/dmytro-kabytskyi-207421168/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1330-shcho-nam-robyty-v-chasy-shi-20",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "13:30",
+      "endTime": "14:25",
+      "durationMin": 55,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "AI"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Що нам робити в часи ШІ?",
+      "description": "У цій доповіді спікер подивиться на вплив штучного інтелекту одразу з кількох перспектив: інженера, підприємця та економіста. Без хайпу й страшилок — лише спроба тверезо оцінити, як ШІ вже змінює ринок і що нас може чекати далі.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Віктор Турський",
+          "role": "Cofounder",
+          "company": "WebbyLab, ex-Google senior software engineer",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgzYzNlMDlkLWUxOGUtNDk1MS1iYThlLTRmMzRjNjJiNGUxYyIsInB1ciI6ImJsb2JfaWQifX0=--6560e495cd21dff60c74e821f3ee1b3127fa2553/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/victor_turskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/turskyi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1330-nintendo-switch-2-iak-pryruchyty-transfo-21",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "13:30",
+      "endTime": "13:55",
+      "durationMin": 25,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Nintendo Switch 2: як приручити Трансформера з лазером",
+      "description": "Минулого року Nintendo створила свого нового «трансформера» — гібридну ігрову консоль Switch 2. До другої версії девайса інженери компанії додали режим миші. Українська сервісна компанія Pingle Studio однією з перших інтегрувала нову фічу в реальну гру. У своїй доповіді розробник Сергій Донський розповість, як він впорався з приборканням лазера та які проблеми виникли на його шляху.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Сергій Донський",
+          "role": "Unreal Engine Developer",
+          "company": "Pingle Studio",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjEyYTBiNmU1LTcwZDgtNGFiMC1iOGUwLTZiY2JjOWQ4MjZlNCIsInB1ciI6ImJsb2JfaWQifX0=--006f49e15ab2437ab484766da8473ae1abd759cc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/serhiy_donskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/serhii-donskyi-0b75a4127/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-GROWTH-1420-vorkshop-nadshvydka-rozrobka-z-ai-ahenta-22",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "14:20",
+      "endTime": "15:50",
+      "durationMin": 90,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Надшвидка розробка з AI агентами для нових проектів",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "В'ячеслав Колдовський",
+          "role": "Competence Manager у SoftServe",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjllNDdjYjBhLTUzODQtNGM3MS04ODdkLWU4ZTYwMTNlY2Q2NyIsInB1ciI6ImJsb2JfaWQifX0=--7682cf87c38889b7166ffa63fe77c8fa46930990/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-20%2018.46.40.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/koldovsky/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-BUSINESS-1430-iak-zarobliaty-bilshe-pohliad-ochamy-vla-25",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "14:30",
+      "endTime": "14:55",
+      "durationMin": 25,
+      "track": "Business",
+      "tags": [
+        "Business"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Як заробляти більше: погляд очами власника і СЕО великої продуктової компанії",
+      "description": "Продуктове ІТ звужується через використання LLM, автоматизацію і захоплення ринку великими гравцями. Місць для джуніор-спеціалістів стає дедалі менше, а мідли не хочуть брати на себе додаткову відповідальність. Тим часом топи стають консультантами, але не майбутніми СЕО. Що робити? Своїм баченням поділиться CEO Brainstack Володимир Ситніков.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Володимир Ситніков",
+          "role": "CEO Brainstack",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBlNjVlYzAwLWRhNzktNGEwYy05ZWZhLWRiMWQ3NjhiYWMyMSIsInB1ciI6ImJsb2JfaWQifX0=--f3116b73c1d73c37ba5b3307bfbb9c339fab1101/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/volodymyr_sytnikov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/volodymyr-sytnikov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1430-inzhenery-shi-konkurentsiia-chy-novyi-ri-23",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "14:30",
+      "endTime": "15:25",
+      "durationMin": 55,
+      "track": "Leadership",
+      "tags": [
+        "Leadership",
+        "Engineering"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Інженери + ШІ — конкуренція чи новий рівень? Панельна дискусія",
+      "description": "СТО відомих компаній обговорять, як ШІ впливає на інженерну роботу, чи змінюється роль розробника і хто буде потрібен ринку завтра.",
+      "language": "UA",
+      "type": "panel",
+      "speakers": [
+        {
+          "name": "Віра Ткаченко",
+          "role": "CTIO",
+          "company": "MacPaw",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk2Y2Y0MmYwLTNmNWYtNDE3OC05OTI1LTYwNmQyYjViMmIzZCIsInB1ciI6ImJsb2JfaWQifX0=--d0825d677ce4f433dd0d80147769109dc6cc3dd1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vira_tkachenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/veratkachenko/"
+            }
+          ]
+        },
+        {
+          "name": "Олесь Петрів",
+          "role": "CTO & Co-founder Reface",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNlODMzOGJiLTZlYzYtNGIyZC04MTRhLWE5NWZiNWE5OTJkZCIsInB1ciI6ImJsb2JfaWQifX0=--366170156b2e7fd0f9d55101652b1adfd655ece7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/OZR_5836-retouched.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oles-petriv-26987b15/"
+            }
+          ]
+        },
+        {
+          "name": "Євген Ковалевський",
+          "role": "VP of Engineering",
+          "company": "LetyShops",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc5ZGExYzNmLTJlYjktNDdhNi1iMDE5LTMyNDdkOTE4Y2FhMSIsInB1ciI6ImJsb2JfaWQifX0=--98f59e32659fa80f68c36328da45c944b953f68a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1758199941578.png?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/yevhen-kovalevskiy-33174155/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1430-iak-zapuskaty-startap-v-venture-builder--24",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "14:30",
+      "endTime": "14:55",
+      "durationMin": 25,
+      "track": "Business",
+      "tags": [
+        "Business"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Як запускати стартап в venture builder vs самостійно",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Слава Мацьков",
+          "role": "CEO & Co-Founder Howly",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUyNDhhMWNmLWJmNTMtNGNmNi05ZGNhLWFjZjdjZTVhNDM3ZSIsInB1ciI6ImJsb2JfaWQifX0=--0e25da5633ee0b9b877c96acd722ecb05a7c20d8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/slava_matskov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/viacheslavmatskov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1500-vid-tokeniv-do-krokiv-stvorennia-avtonom-27",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "15:00",
+      "endTime": "15:25",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Від токенів до кроків: Створення автономних гуманоїдів на базі Vision-Language-Action моделей",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Любомир Демків",
+          "role": "Керівник відділу робототехніки у SoftServe",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYzNmU0ZmI4LTA2MGYtNGQ2ZS05YTcxLTYxMTYzMDc5MzQyMCIsInB1ciI6ImJsb2JfaWQifX0=--dd750919d5e8be46e3986685f37b893ba631407d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/lubomyr.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/lyubomyr-demkiv/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1500-iak-robliat-ihry-spytai-rozrobnyka-28",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "15:00",
+      "endTime": "15:55",
+      "durationMin": 55,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "Gamedev",
+        "Design",
+        "Product"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Як роблять ігри? Спитай розробника",
+      "description": "Чому камера в іграх зазвичай дивиться через праве плече? Чи можливо створити хіт без бюджету на маркетинг? Куди насправді зникають тіла ворогів після їхньої смерті? Маєте купу \"чому\" про ігрову індустрію? Приходьте до наших експертів на DOU Day 2026! У форматі живої черги ви зможете розпитати досвідчених геймдизайнера та продюсера про найрізноманітніші аспекти створення ігор.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Євген Тур",
+          "role": "Producer у Burny Games",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQzYThkYmE5LWFmYzktNGI2My05MGMxLWNkOWE2OTI4NmE1ZCIsInB1ciI6ImJsb2JfaWQifX0=--1305e23dfae22f4d43771d9bcb67ffbe470b0a9f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/e_tur.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/yevhen-tur/"
+            }
+          ]
+        },
+        {
+          "name": "Андрій Петкевич",
+          "role": "Lead Combat Designer у Frogwares",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImMzNDNkYmE1LWJjOGQtNDNmNC04YTQzLTQ4M2FkYTZmMmQzNyIsInB1ciI6ImJsb2JfaWQifX0=--4f70a7e34fb0a07e6d7634417f88b8b0906016de/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/a_patkevich.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/apetkevich/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-PODCAST-1500-zapys-podkastu-serhiia-nemchynskoho-26",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "15:00",
+      "endTime": "16:30",
+      "durationMin": 90,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "PODCAST",
+      "roomLabel": "PODCAST, -1 поверх",
+      "title": "Запис подкасту Сергія Немчинського",
+      "language": "UA",
+      "type": "podcast",
+      "speakers": [
+        {
+          "name": "Сергій Немчинський",
+          "role": "Founder & CEO",
+          "company": "FoxxmindEd",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ1NjA0NDIwLWNjZjMtNGYzMy05NjdlLTViOTUwYmIyZjkzMyIsInB1ciI6ImJsb2JfaWQifX0=--a8963f9a883cffa37fc9b71a58ab1ade35898b87/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/serhiy_nemchinskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/sergey-nemchinsky/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1530-ai-u-legacy-pro-shcho-ne-rozkazhut-vaibk-29",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "15:30",
+      "endTime": "15:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "AI"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "AI у legacy: про що не розкажуть вайбкодери",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ілля Климов",
+          "role": "Staff Front-End Engineer",
+          "company": "GitLab",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM4YTM3ZDBjLTE2M2ItNDVmNS1hMWEyLWFkMjgyM2U0NDkzMyIsInB1ciI6ImJsb2JfaWQifX0=--e41b3fab8609181243bb64bb1af85ebb5296e27e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%9A%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/xanf/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1530-iak-finansovi-modeli-dopomahaiut-produkt-30",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "15:30",
+      "endTime": "15:55",
+      "durationMin": 25,
+      "track": "Business",
+      "tags": [
+        "Business",
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Як фінансові моделі допомагають продуктам зростати: практичний досвід 30 українських компаній",
+      "description": "За останні 4 роки спікер створив і впровадив фінансові моделі у понад 30 топових українських компаніях, працюючи як із зовнішніми, так і з внутрішніми продуктами.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Андрій Мандріка",
+          "role": "Product management advisor & mentor | Founder & Trainer @HardSkillsForPM.com",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI3YzZjOWY5LTQ2ODQtNDg4NS05NzFmLTc3YjJlZWU2NDAxYyIsInB1ciI6ImJsb2JfaWQifX0=--b49b60bc90f3da553fc0d53564320e29545207d4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-03-13%2022.01.31.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "link",
+              "url": "http://hardskillsforpm.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-BUSINESS-1600-kiberbezpeka-dlia-biznesu-v-epokhu-llm-i-32",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:00",
+      "endTime": "16:55",
+      "durationMin": 55,
+      "track": "Security",
+      "tags": [
+        "Security"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Кібербезпека для бізнесу в епоху LLM. Як команді користуватися ШІ і не злити дані",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Тарас Гошовський",
+          "role": "директор з інформаційних та диджитал технологій МХП",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjllNTU3MTYxLTdiYjctNGEyNC1iOTNmLTNiZGM5YzEzN2M0OCIsInB1ciI6ImJsb2JfaWQifX0=--5140c2de3a99c8904b7bfb35572a04a5e2ddf7e7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/taras_goshovskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/taras-goshovskyi/"
+            }
+          ]
+        },
+        {
+          "name": "Максим Ященко",
+          "role": "Head of Information Security Service (CISO) UKRSIBBANK BNP Paribas Group",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNiY2QwNWUwLTI2NTEtNGViOC1iM2ZiLTM2MjRjNmY0ZDEwYSIsInB1ciI6ImJsb2JfaWQifX0=--188be43a2c86beaed0f358ec7e98d6d84d7675bb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%AF%D1%89%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%20Head%20of%20Information%20Security%20Service%20(CISO)%20UKRSIBBANK%20BNP%20Paribas%20Group.png?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Олександр Борняков",
+          "role": "Тимчасово виконуючий обов'язки Міністра цифрової трансформації України",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIzN2I1YTU2LWRmYTgtNDNjZi1hMDljLWU0Njg4ZjlhNTAzZCIsInB1ciI6ImJsb2JfaWQifX0=--ea9d5c72806b570ec65c192a2fbad555a86453c5/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/borniakov%20(01.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/abornyakov/"
+            }
+          ]
+        },
+        {
+          "name": "Наталія Микольська",
+          "role": "виконавча директорка Diia.City United",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjkwMjUxOGQwLTIwMGUtNDdhZi05Nzc3LTk0MGI4YjJlZmE3OCIsInB1ciI6ImJsb2JfaWQifX0=--ba3c7248102b0024e5929d77b8611c44f09510fd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/3.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/nataliya-mykolska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1600-output-to-impact-escaping-the-ai-driven--31",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:00",
+      "endTime": "16:25",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Output to Impact: Escaping the [AI-Driven] Feature Factory",
+      "description": "Сьогодні, коли розробка стає дешевшою завдяки AI, багато команд ризикують перетворитися на AI-driven Feature Factory — швидко будувати, але не завжди правильні речі. У цій доповіді спікер покаже просту модель Output → Outcome → Impact і розповість, як інженерні команди разом із продакт-менеджерами можуть створювати реальну цінність для користувача, а не просто реалізовувати рішення без розуміння їх впливу.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Іван Пашко",
+          "role": "Staff Engineering Manager",
+          "company": "Preply",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY3MTE1MzNjLTgyNDEtNGYyYi1hNGJhLTAzZjcyOGVjMTNlYSIsInB1ciI6ImJsb2JfaWQifX0=--61848fd6c12091e34539ac9a07fc7f462a81823e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/ivan_pashko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/ivan-pashko-33208042/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-FUTURE-1600-koly-vse-sami-tse-pomylka-iak-obraty-miz-34",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:00",
+      "endTime": "16:25",
+      "durationMin": 25,
+      "track": "Deftech",
+      "tags": [
+        "Deftech",
+        "Product"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Коли «все самі» – це помилка? Як обрати між розробкою та інтеграцією в оборонному hardware-продукті",
+      "description": "Робити все самим здається ідеальним рішенням, проте часто це помилка, що спалює час і зусилля. Павло Косолапкін, CTO Frontline Robotics, на прикладі дронів «Лінза» пояснить, як команда розрізняє, коли варто інвестувати у власну розробку, а коли — інтегрувати готове рішення. І розбере, які помилки у цьому виборі коштують компаніям найдорожче.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Павло Косолапкін",
+          "role": "СТО Frontline Robotics",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjllZWVjYTJmLWMyZWQtNDNmZC05ZGM3LWFjNTNiZTAxMTNkNCIsInB1ciI6ImJsb2JfaWQifX0=--69af30bf6a8a48b08ca6de5ef6befea3de798932/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/kosolapkin_pavlo.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/kosolapkin/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-GROWTH-1600-laivkodynh-babich-pokazuie-svii-kod-33",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "durationMin": 90,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Лайвкодинг: Бабіч показує свій код",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Сергій Бабіч",
+          "role": "Веброзробник",
+          "company": "ютубер",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjljM2QxOGUwLTU5YzgtNDg3MC05MjdmLTM5MTQ4Y2MzNTgwMiIsInB1ciI6ImJsb2JfaWQifX0=--acc79c2271f9bbd6178ba64a3200546ca692280d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-05-01%2012.56.36.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/babichss/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-CORE-1630-secret-guests-35",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:30",
+      "endTime": "17:25",
+      "durationMin": 55,
+      "track": "Future",
+      "tags": [
+        "Future"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Secret Guests",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Юрко Федоренко",
+          "role": "Програмний директор",
+          "company": "УТ-2",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY4NDgxMzRjLTNmNzMtNDUzYi04OTg1LTEzNTAxM2Q1OGFiNyIsInB1ciI6ImJsb2JfaWQifX0=--644c05cbee4841536c238850d14d76600ffc13d0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-13%2010.43.49.jpeg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/djamah/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day1-ENGINE-1630-vid-monoproduktu-do-ekosystemy-dosvid-uk-36",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "16:30",
+      "endTime": "16:55",
+      "durationMin": 25,
+      "track": "Product",
+      "tags": [
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Від монопродукту  до екосистеми. Досвід Uklon",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Роман Петрик",
+          "role": "Chief Product Officer",
+          "company": "Uklon",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE4NDliZjM1LTIzNWUtNDM0My1iOWVkLWI5Mjk3ODJhMjMwNSIsInB1ciI6ImJsb2JfaWQifX0=--61aaf9665ae5e24262fca90cc57306ddefde5396/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/roman_petryk.jpg?event_slug=dou-day-2026"
+        }
+      ]
+    },
+    {
+      "id": "day1-main-1730-afterparty-dlia-spikeriv-ta-vlasnykiv-pr-37",
+      "day": 1,
+      "date": "2026-05-15",
+      "startTime": "17:30",
+      "endTime": "22:00",
+      "durationMin": 270,
+      "room": "",
+      "roomLabel": "",
+      "title": "Afterparty (для спікерів та власників PRO-квитків)",
+      "language": "UA",
+      "type": "afterparty",
+      "speakers": []
+    },
+    {
+      "id": "day2-main-0900-pochatok-reiestratsii-uchasnykiv-38",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "durationMin": 480,
+      "room": "",
+      "roomLabel": "",
+      "title": "Початок реєстрації учасників",
+      "language": "UA",
+      "type": "registration",
+      "speakers": []
+    },
+    {
+      "id": "day2-CORE-1030-tbd-39",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "10:30",
+      "endTime": "11:25",
+      "durationMin": 55,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "TBD",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Микола Максименко",
+          "role": "Co-founder & CTO",
+          "company": "Haiqu",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJlY2VlNmVmLTdkMGMtNDY5MS1iOWMyLTM2OTVlZTA4MDI3ZSIsInB1ciI6ImJsb2JfaWQifX0=--3f31c62ab277574197eca8c28bf1769511c6b7c1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/1740506209794.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/mykola-maksymenko-4448a839/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1030-tbd-41",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "10:30",
+      "endTime": "10:55",
+      "durationMin": 25,
+      "track": "Product",
+      "tags": [
+        "Product",
+        "Leadership"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "TBD",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Михайло Нестор",
+          "role": "Chief Product Officer",
+          "company": "Swarmer",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImY1MzRlMzhmLTM5MDUtNGE3OC04YzNjLTEyOWE0OGZhN2NjMCIsInB1ciI6ImJsb2JfaWQifX0=--579d3dd47d65052da3d53bb9fdc18b40dc53fc03/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Frame%20427319091.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://ua.linkedin.com/in/mishanestor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-FUTURE-1030-iak-vyzhyty-v-linkedin-shumi-rol-brendu--40",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "10:30",
+      "endTime": "10:55",
+      "durationMin": 25,
+      "track": "Future",
+      "tags": [
+        "Future"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Як вижити в LinkedIn-шумі: роль бренду та ABM у сучасному Outbound",
+      "description": "Частина IT-компаній застрягли між «невидимим» брендингом та агресивним спамом у LinkedIn. Але що як поєднати ідентичність бренду з точковим Account Based Marketing? Євген Зінгерман і Максим Соколюк (Netpeak) розкриють механіку створення єдиної системи, де кожен контакт із клієнтом підкріплений стратегією. Ви дізнаєтесь, як розібратися в собі і донести це потенційним клієнтам та адаптувати команду продажів під нові правила гри.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Євген Зінгерман",
+          "role": "Chief Strategy Officer",
+          "company": "агенції Netpeak",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgxMmQ1N2I0LTU5NGMtNDA0Yy04Zjk3LTQzZGQ4ZWUwYzNkNSIsInB1ciI6ImJsb2JfaWQifX0=--ae1c574af7d11d11b26cb10e8e51f775d9a27e04/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/zingerman.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/eugene-zingerman-960330235/"
+            }
+          ]
+        },
+        {
+          "name": "Максим Соколюк",
+          "role": "Chief Business Development Officer",
+          "company": "агенції Netpeak",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3NzA0Mzg1LTQxZTctNDY1ZS1hNjcxLTIxNTc5NjhkMTVkMiIsInB1ciI6ImJsb2JfaWQifX0=--6ede1ff4aab80ec73664bb35cc2c945ebbade761/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/koroliyk.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/maksym-sokoliuk/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1100-nevyhadani-istorii-ai-first-transformats-44",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:00",
+      "endTime": "11:25",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Невигадані історії AI-first трансформації в інженерних командах",
+      "description": "За останній рік у Superhuman (раніше Grammarly) ми провели десятки експериментів із ШІ-агентами для написання коду — деякі дали сильний результат, інші — повністю провалилися. Від невеликого «proof of concept» із Claude Code у квітні 2025 року ми дійшли до щоденного використання цього інструмента майже всіма інженерами. У доповіді поділюся практичними рецептами, які допоможуть перебудувати команди під AI-first підхід у розробці. Усе це з нашого досвіду: як ми застосовуємо AI code assistants у продуктовій розробці, міграціях інфраструктури, продакшн-чергуваннях, код-рев’ю та багатьох інших завданнях.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ярослав Єрмілов",
+          "role": "Principal Software Engineer",
+          "company": "Superhuman (formerly Grammarly)",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQwYjMyMjVmLWQ2OTctNDAyMC05MWEwLTk0YmZkNmQ3OGE4YSIsInB1ciI6ImJsb2JfaWQifX0=--ba17525c89b9243fdd9d5e588659bcb2729eba3d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Yaroslav_Yermilov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/yarik-yermilov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-GROWTH-1100-vorkshop-levy-zhyrafy-i-tekhlid-iak-ne-z-42",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "durationMin": 90,
+      "track": "Leadership",
+      "tags": [
+        "Leadership",
+        "Product"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Леви, Жирафи і Техлід. Як не згоріти в різних очікуваннях",
+      "description": "Техлід хоче результат. Команда хоче безпеки і нормального темпу. Продакт хоче швидше. І ти десь посередині. На цьому воркшопі розкладемо ці очікування через фреймворк конкуруючих цінностей і подивимось, як навчитись «читати» людей і балансувати між ними.",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "Артем Биковець",
+          "role": "Founder",
+          "company": "Agile Coach & Organizational consultant у Simplesense, Adjunct Professor у KMBS",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQyMjI0OGVkLWE0ZjYtNGZlOC04YzE2LTRiNGM2NDEwYjM1MSIsInB1ciI6ImJsb2JfaWQifX0=--ca04bf6174fb52fb24a1bbda0ca100946723bfe9/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/ava-square-latest.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/abykovets/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-PODCAST-1100-zapys-podkastu-serhii-babich-ta-dyvovyzh-43",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "durationMin": 90,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "PODCAST",
+      "roomLabel": "PODCAST, -1 поверх",
+      "title": "Запис подкасту «Сергій Бабіч та Дивовижний світ веброзробки»",
+      "language": "UA",
+      "type": "podcast",
+      "speakers": [
+        {
+          "name": "Сергій Бабіч",
+          "role": "Веброзробник",
+          "company": "ютубер",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjljM2QxOGUwLTU5YzgtNDg3MC05MjdmLTM5MTQ4Y2MzNTgwMiIsInB1ciI6ImJsb2JfaWQifX0=--acc79c2271f9bbd6178ba64a3200546ca692280d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-05-01%2012.56.36.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/babichss/"
+            }
+          ]
+        },
+        {
+          "name": "Віра Ткаченко",
+          "role": "CTIO",
+          "company": "MacPaw",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk2Y2Y0MmYwLTNmNWYtNDE3OC05OTI1LTYwNmQyYjViMmIzZCIsInB1ciI6ImJsb2JfaWQifX0=--d0825d677ce4f433dd0d80147769109dc6cc3dd1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vira_tkachenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/veratkachenko/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-BUSINESS-1130-iak-zminiuiutsia-hr-protsesy-v-it-ta-obo-46",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:30",
+      "endTime": "12:25",
+      "durationMin": 55,
+      "track": "Business",
+      "tags": [
+        "Business"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Як змінюються HR-процеси в ІТ та оборонці",
+      "description": "Як сучасні виклики змушують ІТ-галузь та Defense Tech кардинально змінювати підходи до утримання та розвитку талантів.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Андрій Лавренович",
+          "role": "Human Resources Director \"Генерал Черешня\"",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFmMGQ0OGNiLTBkZmYtNGVlNC05M2FlLTliZGI0NzkzZTg3NSIsInB1ciI6ImJsb2JfaWQifX0=--e4f283a3a9326702b9d1b5fca395110a9fbd2c94/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/lavrenovych.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/andrii-lavrenovych/"
+            }
+          ]
+        },
+        {
+          "name": "Антон Фількевич",
+          "role": "старший директор з залучення талантів EPAM",
+          "company": "Україні та Греції",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjFkNmVmODkyLWI1NzgtNDg5Mi04ODYyLWFiYzM5ZWM5MTIyNSIsInB1ciI6ImJsb2JfaWQifX0=--e7b6277447d85e62e583d7f2a09840ccb3292b5e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Anton1.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/anton-filkevych-a003261/"
+            }
+          ]
+        },
+        {
+          "name": "Вікторія Придатко\n        Модератор",
+          "role": "Засновниця VP Team",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImVjMTNjOTFiLTdjMWQtNDFhMS1iODM1LTcwY2Y3MzY1ZjkwYiIsInB1ciI6ImJsb2JfaWQifX0=--19df6c3d076f6000a731ea797b571ddc869aafd8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Prydatko.jpg?event_slug=dou-day-2026",
+          "isModerator": true
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1130-agency-45",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:30",
+      "endTime": "12:25",
+      "durationMin": 55,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "#Agency",
+      "description": "Цей виступ про суб'єктність — про те, як перестати плисти за течією і почати діяти осмислено. Це не про лайфхаки продуктивності й не про мотиваційні штуки, а про те, як прокачувати саму здатність вирішувати і доводити вирішене до діла. Робиш ти продукт чи ведеш команду — суб'єктність це той базовий скіл, від якого залежить все інше.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олександр Соловйов",
+          "role": "СТО",
+          "company": "Хрущ",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE2YzMzYzk1LTllNTktNGFkNC05ODIzLTkwZTY0ODkzODdmNSIsInB1ciI6ImJsb2JfaWQifX0=--83a6017139e529daf321510790185c0b48c9a9a6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/photo_2026-04-14%2008.35.45.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/asolovyov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1130-odniieiu-ml-modelliu-na-vsi-stiltsi-iak--47",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:30",
+      "endTime": "11:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Однією ML-моделлю на всі стільці: як деплоїти одну модель і запускати 100 на її основі",
+      "description": "Спікерка зазначає, що всі прагнуть отримувати максимум від AI без значних витрат часу та ресурсів на тренування власних моделей, що часто ускладнюється нестачею даних.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Катерина Грицаєнко",
+          "role": "Senior Software Engineer",
+          "company": "Solidgate/Google",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRjYjI2YTBhLTk1MWYtNDNmMC04ZmYxLWVkMmUyOWNjNTJlYSIsInB1ciI6ImJsb2JfaWQifX0=--d20d23b50e14a3e0dacd3897f03abd6b639960f5/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/kateryna_hrytsayenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/kateryna-hrytsaienko/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-FUTURE-1130-iak-perezhyty-proval-produktu-v-heimdevi-48",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "11:30",
+      "endTime": "11:55",
+      "durationMin": 25,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Як пережити провал продукту в геймдеві, але продовжити створювати ігри",
+      "description": "У вересні 2022-го українська студія Frag Lab випустила в дочасний доступ багатокористувацький шутер Shatterline. Та складна ситуація в індустрії і початок повномасштабної війни втрутилися в плани розробників. Команді довелося закрити сервери для мультиплеєра та переглянути концепцію гри. У своїй доповіді CEO компанії Максим Дембік розповідає, як пережити провал власного продукту в ігровій індустрії, але втриматися і продовжити робити ігри.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Максим Дембік",
+          "role": "CEO",
+          "company": "Frag Lab",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBhZDNmZjg5LTNjNGMtNGQ5NC1hNjQwLTE2NDNlNGQ1ZDRiNiIsInB1ciI6ImJsb2JfaWQifX0=--820df601cfe7ebca39570dea598db89a8601f120/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/M_dembik.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/mdembick/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1200-ai-zabrav-robotu-rozrobnykiv-nudnu-ii-ch-49",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:00",
+      "endTime": "12:25",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "AI забрав роботу розробників… нудну її частину. Досвід Wix",
+      "description": "AI-агенти вже змінюють щоденну роботу розробників, і дедалі частіше постає питання: чи зможе AI їх замінити.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Андрій Моховик",
+          "role": "FED Guild Manager",
+          "company": "Wix",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFhOTFhNDQ1LTMwZDEtNDE0My1hOTZmLTcwOGMwOGQ2MzBmNiIsInB1ciI6ImJsb2JfaWQifX0=--db12836d0dc61d7f5455accfb7b9e50b8cf47f3a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-10%20%D0%BE%2017.41.52.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/mokhovyk/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-FUTURE-1200-pilotuvannia-ta-inzheneriia-fpv-drona-ia-50",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:00",
+      "endTime": "12:25",
+      "durationMin": 25,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Пілотування та інженерія FPV-дрона як базова навичка: з чого почати та на що звернути увагу",
+      "description": "До повномасштабного вторгнення ігри Івана Ковальова отримували нагороди від Google та Apple. Сьогодні він — керівник напряму «FPV мультироторного типу» у Військовій школі «Боривітер». Під час своєї доповіді Іван розповість, чому інженерам, які хочуть створювати дрони та рішення для них, обов’язково треба навчитися «літати» на них та на що потрібно звертати увагу в першу чергу.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Іван Ковальов",
+          "role": "Керівник напрямку FPV мультироторного типу у військовій школі “Боривітер”",
+          "company": "інді-розробник",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjZjODU2NTRmLTQ0N2UtNDU5ZC1hOWI4LTU3YTFiMWEzOWIzOSIsInB1ciI6ImJsb2JfaWQifX0=--7c035b3a2a16dc98d0f490f75e07a62e5b339e72/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/i_kovalyov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/ivan-kovalov-5502a2b3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1230-interviu-51",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:30",
+      "endTime": "13:25",
+      "durationMin": 55,
+      "track": "Future",
+      "tags": [
+        "Future"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Інтервʼю",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олексій Бабенко",
+          "role": "Засновник і CEO Vyriy Industries",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIyNTRmZTlkLTI2ZDktNDlkMC04YTlhLWJjNTRmZTQyOWM5ZSIsInB1ciI6ImJsb2JfaWQifX0=--c691a9a90ec00c43a75119f21f4fdd47772eb8b4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_5105%20(1).JPG?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Влада Зацаринна",
+          "role": "CEO DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJmZDBhM2I4LTRiNjktNDk5Mi1iYTUzLWRjOGE0NDU5YTg4NiIsInB1ciI6ImJsb2JfaWQifX0=--39f73f4adac1ae9324cdc7f086c53c8ab4e03573/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vlada_zatsarinna.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vladaz/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1230-architecting-predictable-enterprise-al-s-52",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:30",
+      "endTime": "12:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering",
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Architecting Predictable Enterprise Al Systems",
+      "description": "Корпоративні платформи дедалі частіше використовують AI у критично важливих системах, де потрібні передбачуваність, прозорість і контрольованість процесів.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Євген Сафонов",
+          "role": "Development Technical Leader Creatio",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI4NTk5MzIwLTQyYTEtNGZlMi1hMTc2LWFkZWUyOTRhNTU1MyIsInB1ciI6ImJsb2JfaWQifX0=--e62dffea3a561b8ff467283e44a7d11d29c8ed2c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/PXL_20260410_131859284.PORTRAIT~2.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/eugene-safonov-294a5739/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-FUTURE-1230-freimvorkam-tut-ne-mistse-chy-zdatni-nat-53",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:30",
+      "endTime": "12:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Фреймворкам тут не місце: чи здатні нативні вебтехнології замінити JavaScript-стек?",
+      "description": "З моменту появи Gmail та популяризації концепції односторінкових застосунків (SPA) у веброзробці неподільно панують JavaScript-фреймворки. Проте за останнє десятиліття вебплатформа здійснила колосальний стрибок уперед.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Станіслав Долгачов",
+          "role": "Senior Software Engineer",
+          "company": "EPAM",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ2Mzg3ZDc3LWE0YTQtNGVkZC1iMDFlLTdmYWFmMDcxNDk2ZSIsInB1ciI6ImJsb2JfaWQifX0=--d29b7b4b68f9b0d7493456d82fcd382a61dc89cc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/dolgachov-stas.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "dou",
+              "url": "https://dou.ua/users/stas-dolgachov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-GROWTH-1240-vorkshop-hotuiemo-mcp-do-production-54",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "12:40",
+      "endTime": "14:10",
+      "durationMin": 90,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Security"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Готуємо MCP до production",
+      "description": "Воркшоп про те, що ламається, коли ваш MCP виходить у мережу, і чого не покривають getting started статті. Захист, чутливі дані, ліміти, і як це все опанувати.",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "В'ячеслав Феньо",
+          "role": "Senior Software Engineer у N-iX",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZiZjU5OThkLWUyOTQtNGYxNS1hZTRmLTQyOWZiZWNiNWM5MSIsInB1ciI6ImJsb2JfaWQifX0=--903b4d993db44bd083cdf34d87a40b80a646b264/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_4505.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/viacheslavlab/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-PODCAST-1300-zapys-podkastu-ceo-club-iak-zminiuietsia-55",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "durationMin": 90,
+      "track": "Leadership",
+      "tags": [
+        "Leadership"
+      ],
+      "room": "PODCAST",
+      "roomLabel": "PODCAST, -1 поверх",
+      "title": "Запис подкасту CEO Club \"Як змінюється роль лідера в світі АІ\"",
+      "language": "UA",
+      "type": "podcast",
+      "speakers": [
+        {
+          "name": "Тетяна Лукинюк",
+          "role": "Директорка Google Україна",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJlZWJkZGJlLTIxZTQtNDBiMS04MTJjLWMxMWYzYzM2OGU1NyIsInB1ciI6ImJsb2JfaWQifX0=--a3d8206c29f2f7254be722790bdeabedca2d60d7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/tetyana_lukiniuk.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/lukinyuk/"
+            }
+          ]
+        },
+        {
+          "name": "Віталій Седлер",
+          "role": "CEO/Co-founder Intellias",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgzNTNmMTI1LTdjZjYtNGU5ZS04NDQ1LTQ4Yzg1YmEyMzAyMiIsInB1ciI6ImJsb2JfaWQifX0=--bb1db3f2f53df595183265dda07eeb0667481219/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vitaliy_sedler.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vitaly-sedler-0b507a2/"
+            }
+          ]
+        },
+        {
+          "name": "Андрій Сухов",
+          "role": "Співзасновник Checkbox",
+          "company": "Navkolo, Dubidoc",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjRkNDg1ODJkLWRmYTktNDE5Ny04MjlhLTY4N2YxZDI2MDUxOCIsInB1ciI6ImJsb2JfaWQifX0=--09ecf1cc8be19084503709e9328335c79fe971bd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B8%CC%86%20%D0%A1%D1%83%D1%85%D0%BE%D0%B2.jpg?event_slug=dou-day-2026"
+        }
+      ]
+    },
+    {
+      "id": "day2-BUSINESS-1330-vid-ambitsii-do-rezultatu-stavky-ceo-58",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "13:30",
+      "endTime": "13:55",
+      "durationMin": 25,
+      "track": "Leadership",
+      "tags": [
+        "Leadership"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Від амбіцій до результату: “ставки” CEO",
+      "description": "У роботі не всі рішення можна приймати в умовах повної визначеності: часто бракує часу, даних або ресурсу, а діяти потрібно зараз. У таких ситуаціях важливо вміти робити \"ставки\". CEO бізнесу FORMA (Universe Group) Федір Котяй розкаже, як різні \"ставки\" впливають на результат, та поділиться конкретними прикладами управлінських рішень із досвіду. Доповідь буде корисна CEO, менеджерам, лідам і всім, хто хоче краще зрозуміти логіку побудови сильного бізнесу.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Федір Котяй",
+          "role": "CEO бізнесу FORMA by Universe Group",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE2NTE4NGM0LWM3YWUtNDYzYy05YzJiLTQ2MzYxODhkMWE1NiIsInB1ciI6ImJsb2JfaWQifX0=--9fb92db1746475539d31f0c856ad561aed6abd6b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/fedir_kotiay.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/fedir-kotiai-5aa425107/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1330-qa-z-minoborony-56",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "13:30",
+      "endTime": "14:25",
+      "durationMin": 55,
+      "track": "CORE",
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Q&A з Міноборони",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Оксана Ферчук",
+          "role": "заступниця міністра оборони України з питань цифрового розвитку",
+          "company": "цифрових трансформацій і цифровізації",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjYzYTQ0MDZlLTVlYjgtNGViZS04YmMxLWI3ODIwNDkyYWU3NiIsInB1ciI6ImJsb2JfaWQifX0=--f1e9d89e5f4859b6dc5db26150ed564e497a0a89/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/oksana_ferchuk.jpg?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Олег Берестовий",
+          "role": "начальник Головного управління інформаційних технологій",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUzMDY3ZmFkLWFhYjItNDg4NS1hYjg0LTkyYTYzMzkwNzg2MiIsInB1ciI6ImJsb2JfaWQifX0=--639dccdd7c47525467256e0f7979782abe72a33a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Berestovyi_oleg.jpg?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Вікторія Осіпова",
+          "role": "Lead Editor",
+          "company": "DOU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQzNzA1MDkyLTVjNzctNGQxYi05OGM2LTVjMjE3Mzk1MDUwOCIsInB1ciI6ImJsb2JfaWQifX0=--e1c52cd4266529ec26b047b4fcf480549082a29c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/osipova.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/viktoria-osipova-%F0%9F%94%9C-dou-day-31ab181b3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1330-deep-dive-into-llm-apis-rag-and-fine-tun-57",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "13:30",
+      "endTime": "13:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Deep Dive into LLM APIs, RAG, and Fine-Tuning",
+      "description": "У своїй презентації спікер зосереджується на практичному використанні великих мовних моделей: від роботи з LLM APIs до побудови повноцінних рішень на базі RAG та різних підходів до fine-tuning. Він детально розбирає керування поведінкою LLM через параметри, контекст та інструменти, а також аналізує наявні типи донавчання й доцільність їх застосування. Окрему увагу в доповіді приділено практичним викликам RAG — якості пошуку, релевантності контексту, феномену «semantic collapse» та впливу цих факторів на стабільність відповідей системи у продакшені.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олександр Краковецький",
+          "role": "CEO",
+          "company": "DevRain",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNmNjIzNzBlLWUwZGYtNDgzZS1hNzIzLTJhMTg3MGVhZGU1ZCIsInB1ciI6ImJsb2JfaWQifX0=--138c5d4be9e3246b446cce4f6d9967ffcc7fffa7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/oleksandr_krakovetskiy.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/sashaeve/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1400-edge-vision-at-scale-environment-drift-a-59",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "14:00",
+      "endTime": "14:25",
+      "durationMin": 25,
+      "track": "ENGINE",
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Edge Vision at Scale: Environment, Drift, and Reliable Evolution",
+      "description": "У своїй доповіді спікер розгляне поточний стан продакшн edge-vision та розбере три структурні причини, через які системи ламаються після релізу. Зокрема, він пояснить, чому реальні умови варто сприймати як норму, а не крайній випадок, а також поділиться рецептом надійності в мінливому середовищі.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олексій Ричик",
+          "role": "Applied Scientist",
+          "company": "SQUAD",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjdiYjk0Yjk2LWI3NTMtNDU0ZS04YzJhLTAxNjIyZDJiYjc0OSIsInB1ciI6ImJsb2JfaWQifX0=--d1ffd0cd2393f202dcbc8e9ebba698cf386c6427/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Oleksii%20Rychyk_SQUAD%20(1).jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://ua.linkedin.com/in/rychyk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-GROWTH-1420-vorkshop-prohramuvannia-i-intehratsiia-k-60",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "14:20",
+      "endTime": "15:50",
+      "durationMin": 90,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Програмування і інтеграція колаборативної робототехніки: історія успішних кейсів та факапів",
+      "description": "Розглянемо загальні тренди розвитку світової робототехніки, загальні принципи колаборативної робототехніки, досвід нашої команди щодо успішних інтеграцій та факапів. Особливості розрахунку ROI: світовий підхід та українські реалії.",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "Віктор Єгоров",
+          "role": "Доктор технічних наук",
+          "company": "засновник групи компаній MATAS Robotics, президент ГО FabLab MiRONAFT",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE5NDExNTQyLTg4ZjUtNDY1Zi1iYTJiLWMxZDQ0ZGE3YWNhYSIsInB1ciI6ImJsb2JfaWQifX0=--606ca6d93fff338117213a528b1ae61090541109/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/IMG_20250911_210040_856.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/viktor-yehorov-mironaft/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1430-iak-buduvaty-inzhenerni-komandy-u-2026-61",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "14:30",
+      "endTime": "15:25",
+      "durationMin": 55,
+      "track": "CORE",
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Як будувати інженерні команди у 2026",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ірина Терех",
+          "role": "СЕО/СТО Fire Point",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJiZjJkM2JiLWQ3NDEtNDg0NC1hMjc3LTMxNDU1NGNlZTgwMyIsInB1ciI6ImJsb2JfaWQifX0=--c20d3fd8a170b6c79b229dbefd2f883705984e32/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/iryna_terekh.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/irynaterekh/"
+            }
+          ]
+        },
+        {
+          "name": "Влад Шимов",
+          "role": "Managing Director Capgemini Engineering Eastern Europe",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYzYTVkMjdlLWQwODktNGJjMi1iZWM5LWE5ZDA3Y2VjZTRkZCIsInB1ciI6ImJsb2JfaWQifX0=--cfa03ca17e288ed3ac70513d18a2b92e4e5620fb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/vlad_shimov.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/vladshimov/"
+            }
+          ]
+        },
+        {
+          "name": "Дмитро Горлін",
+          "role": "Director of Engineering Quantum-Systems",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjhmZjYwOWEyLTc2YTEtNGJhZC05YTgwLWY2OTcxMDk4NzI1OSIsInB1ciI6ImJsb2JfaWQifX0=--349533f2a520aa8d4f950dc6684525639e424a8d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Horlin.jpg?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Дмитро Уваров",
+          "role": "Chief Technology Officer UKRSIBBANK BNP Paribas Group",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMyZWI0MzBjLWMwMzYtNDc4MC05ZDRmLTkwMGI1YWQ0NGIxNiIsInB1ciI6ImJsb2JfaWQifX0=--ed8a443d0ac72af52c0e34d90fc6ff90a8c7cdeb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/%D0%A3%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20UKRSIBBANK.cleaned.png?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Віктор Павлучинський",
+          "role": "CTO",
+          "company": "The Ukrainians",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ5MTVjZGVhLTg2N2EtNGMxNy1hNjAzLWFjNGIwNjNjZTA5NyIsInB1ciI6ImJsb2JfaWQifX0=--bc258717fff73a083c7701d25c3b8dc7406827c6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/pavluchynski.jpg?event_slug=dou-day-2026",
+          "isModerator": true,
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/victor-pavlucinskyi/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1430-choho-brakuie-shi-ta-shcho-potrebuiemo-m-62",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "14:30",
+      "endTime": "14:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Чого бракує ШІ та що потребуємо ми?",
+      "description": "Архітектура сучасного генеративного ШІ визначає його сильні та слабкі сторони. Хоча спроможності ШІ викликають захоплення, користувачі водночас можуть дивуватися дивним і часом трагічним помилкам — наприклад, коли нейромережа вигадує факти або видаляє бази даних. Ці прогалини у фундаменті технології підказують, де саме потрібно шукати рішення. \n\nУ своїй доповіді спікер розкаже про можливі підходи до виправлення цих помилок: від швидких тимчасових «милиць» до радикально інакших архітектур. Також буде розглянуто, як ШІ допомагає краще розібратися в природі та цінності людського інтелекту, спираючись на тезу Ларрі Теслера: «Інтелект — це те, чого машини ще не вміють». Таким чином, досліджуючи вади ШІ та шляхи їх подолання, слухачі зможуть краще зрозуміти, як ефективніше навчати та навчатися.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олексій Молчановський",
+          "role": "Chief Innovation Officer",
+          "company": "UCU",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM5NWE4MjllLTM4NmUtNDdkZC04MzQ1LTMyZGU0YzUyYjg5YyIsInB1ciI6ImJsb2JfaWQifX0=--a47a50e07e4b8aea53025d2899c626d9b997d34e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/molchanovskyi_16.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/olexiim/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1500-vid-ux-do-revenue-iak-dyzain-hovoryt-mov-63",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "15:00",
+      "endTime": "15:25",
+      "durationMin": 25,
+      "track": "Design",
+      "tags": [
+        "Design"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Від UX до revenue: як дизайн говорить мовою бізнесу в найбільшій fashion e-commerce платформі Європи",
+      "description": "Як виглядає дизайн, коли ти працюєш над досвідом користувачів на 28 ринках і маєш мислити не лише про інтерфейси, а про бізнес-результат? У цій доповіді спікерка розповість, як дизайн допомагає будувати продуктову історію для мільйонів користувачів, як вони пов’язують дизайнерські рішення з продуктовими метриками та як дизайн впливає на revenue generation у Zalando - найбільшій fashion e-commerce платформі Європи.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Анна Скоробогатова",
+          "role": "Design Leadership",
+          "company": "Zalando",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE4ZTY4YTVhLTIzZTktNGRmNS1hNzQwLWEwZTBlMmE5OWU4ZiIsInB1ciI6ImJsb2JfaWQifX0=--ccaa6b31c424868b7d911ddd5d0710d1e29af1e4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/AnnaZalando.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/anna-skorobogatova-%F0%9F%87%BA%F0%9F%87%A6-2986772a/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-FUTURE-1500-shoukeis-ukrainskykh-indi-ihor-64",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "15:00",
+      "endTime": "16:25",
+      "durationMin": 85,
+      "track": "Gamedev",
+      "tags": [
+        "Gamedev"
+      ],
+      "room": "FUTURE",
+      "roomLabel": "FUTURE, 1 поверх",
+      "title": "Шоукейс українських інді-ігор",
+      "description": "Український інді-геймдев — це постійний потік незвичайних ідей від невеликих команд та соло-авторів. Для шоукейсу на DOU Day 2026 ми відібрали найцікавіші проєкти: від амбітних новинок у розробці до довгоочікуваних ігор, що вже на фінішній прямій. Приходьте зацінити, у що ми гратимемо завтра!",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олексій Кірін",
+          "role": "Creative Art director",
+          "company": "Red Rats production",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk4MWNhNjAzLTE3YzYtNGZmYi1hYjI4LTI5ZjZmYzNjODNiZiIsInB1ciI6ImJsb2JfaWQifX0=--3dc2e8c6c0c795b279adadfb4ca0f954278d72de/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/a_kirin.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oleksiikirin/"
+            }
+          ]
+        },
+        {
+          "name": "Олексій Зінченко",
+          "role": "Sound Designer у Hello Andromeda",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjcxODRkMjU4LWIxMWYtNDgwZC04YTNiLWVjNmYyZjk5MzQwNyIsInB1ciI6ImJsb2JfaWQifX0=--81e8c223c38fe540acc0dbda36d7936719d794ca/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/o_zinchenko.jpg?event_slug=dou-day-2026"
+        },
+        {
+          "name": "Валерій Міненко",
+          "role": "Founder у Twigames",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjczMzllN2UzLTJmYTEtNGIyNS04MWMyLWQ4ODAwY2MxYTVmOCIsInB1ciI6ImJsb2JfaWQifX0=--362841d6ea0a31459fa5e5f19e3a7b18e957b7b2/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/V_Minenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/valerii-minenko/"
+            }
+          ]
+        },
+        {
+          "name": "Олександр Носов",
+          "role": "Game Designer у SandmanTeam",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUzZmM2NGQzLTdkNTctNGE5YS1iZjBlLTM4YWMyZGZmZTRiMyIsInB1ciI6ImJsb2JfaWQifX0=--03d4d4286f5696f0dbc247e002ae1da064b498a2/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/o_nocov.jpg?event_slug=dou-day-2026"
+        }
+      ]
+    },
+    {
+      "id": "day2-BUSINESS-1530-osvita-maibutnoho-iak-shi-zminiuie-navch-67",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "15:30",
+      "endTime": "15:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Future"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Освіта майбутнього: як ШІ змінює навчання, кар’єри та що варто впроваджувати вже сьогодні",
+      "description": "Чи є сенс навчатися по-старому, коли ШІ переписує правила гри щомісяця? Розберемо, як трансформується EdTech та внутрішня корпоративна освіта.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Інна Чут",
+          "role": "CEO Laba Group",
+          "company": "Україні та Співзасновниця Skvot",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjU0MTJiNmQ5LTA2OWMtNDgwZS04ZTE1LTU0NDI2OGM0MzI2MiIsInB1ciI6ImJsb2JfaWQifX0=--477f04c24953c2c2269a1f1acba2d6064b62c866/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/inna_chut.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/innachut/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1530-arkhitektura-postiinykh-zmin-65",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "15:30",
+      "endTime": "15:55",
+      "durationMin": 25,
+      "track": "Engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Архітектура постійних змін",
+      "description": "Багато продуктів живуть у режимі безперервних змін — нові фічі, міграції та рефакторинги. Важливо показати, як архітектура має бути до цього готовою, щоб зміни впроваджувалися швидко, безпечно й дешево.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олександр Хоменко",
+          "role": "Solution Architect",
+          "company": "mono",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJiNWFiMWIxLTc2NjUtNDcwNy1iMjNlLTg3ZGU1ODI2MjU0NCIsInB1ciI6ImJsb2JfaWQifX0=--b0f24348c7ae00ea4bd582e04ee79cb049beb361/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/ph(15).jpg?event_slug=dou-day-2026"
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1530-prototyp-iak-instrument-menedzhmentu-ste-66",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "15:30",
+      "endTime": "15:55",
+      "durationMin": 25,
+      "track": "Product",
+      "tags": [
+        "Product"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Прототип як інструмент менеджменту стейкхолдерів",
+      "description": "Спікер зазначає, що ця тема болить більшості менеджерів, які працюють із власними керівниками. Він також провалідував її актуальність серед колег з інших продуктів.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Ростислав Салата",
+          "role": "Head of Product (B2C)",
+          "company": "Jooble",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIzNTRkMzI3LTFkYzAtNGU5OS1hNjEwLWU3NTFkYTg3NmQ3OCIsInB1ciI6ImJsb2JfaWQifX0=--178b0ac216ab539504e85176cfa8b5751916934a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/rostyslav_salata.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/rostyslav-salata/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1600-shcho-neobkhidno-aby-zrobyty-on-device-a-68",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "16:00",
+      "endTime": "16:25",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Що необхідно, аби зробити On-Device AI по-справжньому інтерактивним",
+      "description": "Щоб досягти відчуття «живої» системи з голосовим інтерфейсом та real-time приватністю, спікери протестували безліч підходів. У доповіді вони розберуть архітектуру on-device рішення та покажуть, як поєднати локальний inference, мовну модель і голосовий стек. Слухачі дізнаються, як latency та time-to-first-token впливають на користувацький досвід, і які оптимізації від LoRA до streaming-пайплайну допомагають його покращити. Окремо доповідачі обговорять ресурсні обмеження, memory budget та перехід до multi-agent сценаріїв, а наостанок поділяться невдалими експериментами та проведуть живу демонстрацію системи.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Владислав Гамоля",
+          "role": "Staff AI Engineer Technological R&D Center",
+          "company": "MacPaw",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM2NTk0ZGM2LTlhNGEtNGU0Ny1hYjdhLTNkM2M2NWE1ODdmMiIsInB1ciI6ImJsb2JfaWQifX0=--4c5b29e9a72d2f8447e6d50193d6064d88349a7b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Vladyslav.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/vhamolya"
+            }
+          ]
+        },
+        {
+          "name": "Євген Азаров",
+          "role": "Deep Learning Research Engineer",
+          "company": "Respeecher",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMzZTU0ZGRmLWNjMGEtNGI1Yi04OTk0LTQ0MmMzYzZkMDI3YiIsInB1ciI6ImJsb2JfaWQifX0=--59eea3837692bac6879e02dd00736829a9b7b309/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Yeugene.jpeg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/yevhenii-azarov-083282221/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-GROWTH-1600-vorkshop-rekreatsiinyi-ai-laivkodynh-hry-69",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "durationMin": 90,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Engineering"
+      ],
+      "room": "GROWTH",
+      "roomLabel": "GROWTH, 3 поверх",
+      "title": "Воркшоп: Рекреаційний AI. Лайвкодинг гри",
+      "description": "Лайвкодимо невелику 3D-гру разом із Claude Code — і дивимось, як AI стає важелем для створення речей, які приносять людям радість, а не лише економлять час.",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [
+        {
+          "name": "Юрій Артюх",
+          "role": "CTO Coderiver",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjRhNDI3ZmNjLTczYTItNDM1MS1hYThjLTQ3MWYyZmFkY2VhMyIsInB1ciI6ImJsb2JfaWQifX0=--9a0c5f275e38cfc339fd069a2373e99ad2c41241/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/b5921b06214937984708f87d97ec3fa4.png?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/akella/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-BUSINESS-1630-chy-zalyshat-ai-asystenty-nas-bez-roboty-71",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "16:30",
+      "endTime": "16:55",
+      "durationMin": 25,
+      "track": "AI",
+      "tags": [
+        "AI",
+        "Future"
+      ],
+      "room": "BUSINESS",
+      "roomLabel": "BUSINESS, 1 поверх",
+      "title": "Чи залишать AI-асистенти нас без роботи?",
+      "description": "Розмова про те, як штучний інтелект змінює операційну роботу компаній: від класичних програм до автономних AI-агентів. Замість теоретичних розмірковувань спікер проаналізує вплив ШІ на ринок праці через призму реального B2B-сектору. На основі даних із понад 45 впроваджених проєктів у сфері генеративного ШІ розбере, які саме задачі алгоритми вже забирають у людей, де межа їхньої автономності та що відбувається, коли ШІ стає повноцінним учасником робочого процесу.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Олег Щербатенко",
+          "role": "Founder & CEO IT-Enterprise",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM1Zjk0YmFiLTdiYzctNDE0ZS1iNjljLTM3ZGQxYzk2MzM2YiIsInB1ciI6ImJsb2JfaWQifX0=--68372d80cce2c95a155ed091f56ca8084649369d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/oleg_scherbatenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/oleg-shcherbatenko/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-ENGINE-1630-leadership-multiplier-liderski-pidkhody--70",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "16:30",
+      "endTime": "16:55",
+      "durationMin": 25,
+      "track": "Leadership",
+      "tags": [
+        "Leadership"
+      ],
+      "room": "ENGINE",
+      "roomLabel": "ENGINE, 1 поверх",
+      "title": "Leadership Multiplier: лідерські підходи для помноження еффективності команд",
+      "description": "Компанії прагнуть високих результатів від своїх команд, проте цьому часто заважають проблеми з наймом, падінням мотивації та вигоранням фахівців.\n\nУ своїй доповіді спікерка розгляне дієвий підхід до вирішення цих викликів — концепцію Leadership Multiplier. Ви дізнаєтесь про лідерські практики, які допомагають утримувати й розвивати людей так, щоб команда і продукт працювали на повну потужність.",
+      "language": "UA",
+      "type": "talk",
+      "speakers": [
+        {
+          "name": "Анастасія Грищенко",
+          "role": "Founder Encelade",
+          "company": "ex-VP of Engineering, DataRobot",
+          "photoUrl": "https://ticket.dou.ua/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBiMDIxOTRkLWQwZDctNDRmZS1hNmUwLTNjNGVmY2VjM2I4YiIsInB1ciI6ImJsb2JfaWQifX0=--3f1da46fa96b0494653fc288421a5faa07eb934a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--eb797c1dbd106a1ce375b0cc01427ab32265cbb8/Hryschenko.jpg?event_slug=dou-day-2026",
+          "socials": [
+            {
+              "type": "linkedin",
+              "url": "https://www.linkedin.com/in/anastasia-hryshchenko-1a584765/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2-CORE-1745-kontsert-hurtu-zhadan-i-sobaky-72",
+      "day": 2,
+      "date": "2026-05-16",
+      "startTime": "17:45",
+      "endTime": "18:45",
+      "durationMin": 60,
+      "track": "CORE",
+      "room": "CORE",
+      "roomLabel": "CORE, 3 поверх",
+      "title": "Концерт гурту «Жадан і Собаки»",
+      "language": "UA",
+      "type": "performance",
+      "speakers": []
+    },
+    {
+      "id": "day3-External-0900-blahodiina-probizhka-sigma-software-ta-s-73",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "Благодійна пробіжка Sigma Software та Sigma Software Unity Fund на підтримку збору DOU Day для корпусу «Хартія»",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/event-covers/sa/cacc1fbe-c6dc-4b2f-8d3a-27ed519a76d2.png",
+      "registrationUrl": "https://lu.ma/1gw1l73f"
+    },
+    {
+      "id": "day3-External-1000-nedilne-trenuvannia-na-pidtrymku-zboru-d-74",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "Недільне тренування на підтримку збору DOU🔥",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/event-covers/64/8aab9db0-331b-4241-bafb-cf56fc35c081.png",
+      "registrationUrl": "https://lu.ma/q9jr5hii"
+    },
+    {
+      "id": "day3-External-1000-coffee-rave-vid-headway-inc-75",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "☕️ Coffee Rave від Headway Inc",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/event-covers/ky/2a78728c-a145-46f6-b63f-64ec165f2a5b.png",
+      "registrationUrl": "https://lu.ma/2tp4nyik"
+    },
+    {
+      "id": "day3-External-1030-transformatsiia-produktu-bez-zupynky-sys-79",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "Трансформація продукту без зупинки системи: як поєднати легасі PHP, нову архітектуру та AI",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/9m/5f7090f3-87b3-43e0-8c87-2d5172d4f98b.png",
+      "registrationUrl": "https://lu.ma/g4evmww9"
+    },
+    {
+      "id": "day3-External-1100-workshop-unreal-engine-airsim-for-sitl-p-76",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "WORKSHOP: Unreal Engine + Airsim for SITL perception and path planning",
+      "language": "UA",
+      "type": "workshop",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/event-covers/j2/03f73321-6e75-4989-88d8-1818db05e3a2.png",
+      "registrationUrl": "https://lu.ma/j6zt7l97"
+    },
+    {
+      "id": "day3-External-1100-ai-ai-ai-ai-serhii-matsur-pro-ai-77",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "11:00",
+      "endTime": "13:30",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "AI, AI, AI, AI: Сергій Мацур про AI",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/rz/dcaa2e37-2cee-479f-840f-33f177ab1429.png",
+      "registrationUrl": "https://lu.ma/4ikwogyh"
+    },
+    {
+      "id": "day3-External-1100-coffee-meets-cava-wix-78",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "Coffee Meets Cava @ Wix",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/uploads/rl/eea540bb-c7de-4c3e-9098-257275113f24.jpg",
+      "registrationUrl": "https://lu.ma/xugq5g9q"
+    },
+    {
+      "id": "day3-External-1100-ai-engineering-meetup-vid-neoversity-cho-81",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "11:00",
+      "endTime": "13:30",
+      "durationMin": 150,
+      "room": "External",
+      "roomLabel": "External venue",
+      "title": "AI Engineering Meetup від Neoversity: Чому AI-системи ламаються в production",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/uploads/1a/93d12e2b-c693-47e2-bd44-9bafe49c7305.jpg",
+      "registrationUrl": "https://lu.ma/4sfz0b7y"
+    },
+    {
+      "id": "day3-External-1200-ai-brunch-spec-driven-development-80",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "durationMin": 120,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "AI-Brunch: Spec-Driven Development",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/uploads/bg/cdc27c26-ff53-47de-a9ac-c65e9443e9d0.png",
+      "registrationUrl": "https://lu.ma/tg8vgh86"
+    },
+    {
+      "id": "day3-External-1200-onlain-lektsiia-iak-pratsiuie-adtech-83",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "External venue",
+      "title": "Онлайн-лекція: як працює AdTech?",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/event-covers/2y/051de77d-7ba1-4916-aafd-f827c7743ee7.jpg",
+      "registrationUrl": "https://lu.ma/id3nf3yc"
+    },
+    {
+      "id": "day3-External-1300-iak-zarobliaiut-i-vtrachaiut-na-startapa-82",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "External venue",
+      "title": "Як заробляють і втрачають на стартапах: кейси ангельських інвесторів ICLUB",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/uploads/2o/dc9e008e-9179-4f32-88e8-242d5c7227f6.png",
+      "registrationUrl": "https://lu.ma/cj8iwtyk"
+    },
+    {
+      "id": "day3-External-1400-visual-genai-vid-doslidzhen-do-realnosti-84",
+      "day": 3,
+      "date": "2026-05-17",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "durationMin": 60,
+      "room": "External",
+      "roomLabel": "Київ, Україна",
+      "title": "Visual GenAI: від досліджень до реальності. Досвід команди R&D SoftServe",
+      "language": "UA",
+      "type": "sideEvent",
+      "speakers": [],
+      "coverImageUrl": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=3,anim=false,background=white,quality=90,width=120,height=120/uploads/wh/e209e414-0410-48e6-987a-83459d116432.png",
+      "registrationUrl": "https://lu.ma/86au7qg9"
+    }
+  ]
+}

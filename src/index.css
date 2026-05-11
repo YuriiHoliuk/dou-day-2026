@@ -1,0 +1,307 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist/index.css";
+@import "@fontsource-variable/jetbrains-mono/index.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * DOU Day 2026 — visual system
+ * ───────────────────────────────────────────────────────────
+ * Aesthetic: editorial conference brochure × terminal density.
+ * Type:      Geist Variable (display + body), JetBrains Mono (tabular numerals).
+ * Color:     restrained, warm-tinted neutrals (chroma ≈ 0.008 toward hue 60).
+ *            Signal accent: citron-lime. 10 OKLCH track colors with theme-aware
+ *            lightness — ≥3:1 vs surface, ≥4.5:1 on tinted backgrounds.
+ * Motion:    ease-out-quart, 180–260ms. No bounce, no elastic.
+ */
+
+@theme {
+  --font-sans:
+    "Geist Variable", ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono:
+    "JetBrains Mono Variable", ui-monospace, "SFMono-Regular", Menlo, Consolas,
+    monospace;
+  --font-display: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  /* ── surfaces ─────────────────────────────────────────── */
+  --background: oklch(0.985 0.004 60);
+  --foreground: oklch(0.18 0.012 60);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.012 60);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.012 60);
+  --muted: oklch(0.955 0.006 60);
+  --muted-foreground: oklch(0.48 0.012 60);
+  --secondary: oklch(0.945 0.008 60);
+  --secondary-foreground: oklch(0.22 0.012 60);
+  --accent: oklch(0.94 0.012 60);
+  --accent-foreground: oklch(0.18 0.012 60);
+  --primary: oklch(0.22 0.012 60);
+  --primary-foreground: oklch(0.985 0.004 60);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.99 0.01 60);
+  --border: oklch(0.9 0.008 60);
+  --input: oklch(0.9 0.008 60);
+  --ring: oklch(0.5 0.12 95);
+  --radius: 0.55rem;
+
+  /* signal accent — citron-lime */
+  --signal: oklch(0.7 0.17 110);
+  --signal-foreground: oklch(0.18 0.012 60);
+  --signal-soft: oklch(0.93 0.07 110);
+
+  /* grid surfaces (gantt) */
+  --grid-line: oklch(0.92 0.006 60);
+  --grid-line-strong: oklch(0.86 0.008 60);
+  --grid-now: oklch(0.62 0.2 25);
+
+  /* track palette — 10 distinct hues, calibrated for light surfaces */
+  --track-ai:          oklch(0.55 0.18 285);  /* violet     */
+  --track-business:    oklch(0.6  0.17  25);  /* coral      */
+  --track-deftech:     oklch(0.5  0.13 150);  /* moss       */
+  --track-design:      oklch(0.6  0.2  335);  /* magenta    */
+  --track-engineering: oklch(0.55 0.15 235);  /* steel blue */
+  --track-future:      oklch(0.6  0.15 195);  /* cyan       */
+  --track-gamedev:     oklch(0.65 0.18  60);  /* amber      */
+  --track-leadership:  oklch(0.55 0.1   85);  /* olive gold */
+  --track-product:     oklch(0.6  0.13 170);  /* teal       */
+  --track-security:    oklch(0.55 0.2    5);  /* red        */
+
+  --track-ai-soft:          oklch(0.95 0.04 285);
+  --track-business-soft:    oklch(0.95 0.04  25);
+  --track-deftech-soft:     oklch(0.95 0.04 150);
+  --track-design-soft:      oklch(0.95 0.04 335);
+  --track-engineering-soft: oklch(0.95 0.04 235);
+  --track-future-soft:      oklch(0.95 0.04 195);
+  --track-gamedev-soft:     oklch(0.95 0.04  60);
+  --track-leadership-soft:  oklch(0.95 0.04  85);
+  --track-product-soft:     oklch(0.95 0.04 170);
+  --track-security-soft:    oklch(0.95 0.04   5);
+
+  color-scheme: light;
+}
+
+.dark {
+  --background: oklch(0.155 0.008 60);
+  --foreground: oklch(0.96 0.005 60);
+  --card: oklch(0.19 0.008 60);
+  --card-foreground: oklch(0.96 0.005 60);
+  --popover: oklch(0.21 0.008 60);
+  --popover-foreground: oklch(0.96 0.005 60);
+  --muted: oklch(0.22 0.008 60);
+  --muted-foreground: oklch(0.66 0.008 60);
+  --secondary: oklch(0.24 0.008 60);
+  --secondary-foreground: oklch(0.96 0.005 60);
+  --accent: oklch(0.26 0.01 60);
+  --accent-foreground: oklch(0.96 0.005 60);
+  --primary: oklch(0.96 0.005 60);
+  --primary-foreground: oklch(0.18 0.012 60);
+  --destructive: oklch(0.62 0.2 25);
+  --destructive-foreground: oklch(0.99 0.01 60);
+  --border: oklch(0.27 0.01 60);
+  --input: oklch(0.27 0.01 60);
+  --ring: oklch(0.72 0.17 110);
+
+  --signal: oklch(0.82 0.18 110);
+  --signal-foreground: oklch(0.16 0.012 60);
+  --signal-soft: oklch(0.28 0.07 110);
+
+  --grid-line: oklch(0.22 0.008 60);
+  --grid-line-strong: oklch(0.28 0.01 60);
+  --grid-now: oklch(0.7 0.22 25);
+
+  /* dark-mode track colors — boost L for contrast on dark card */
+  --track-ai:          oklch(0.78 0.16 285);
+  --track-business:    oklch(0.78 0.16  25);
+  --track-deftech:     oklch(0.76 0.14 150);
+  --track-design:      oklch(0.78 0.17 335);
+  --track-engineering: oklch(0.78 0.14 235);
+  --track-future:      oklch(0.82 0.15 195);
+  --track-gamedev:     oklch(0.82 0.16  60);
+  --track-leadership:  oklch(0.82 0.13  85);
+  --track-product:     oklch(0.8  0.14 170);
+  --track-security:    oklch(0.74 0.18   5);
+
+  --track-ai-soft:          oklch(0.3 0.07 285);
+  --track-business-soft:    oklch(0.3 0.07  25);
+  --track-deftech-soft:     oklch(0.3 0.06 150);
+  --track-design-soft:      oklch(0.3 0.08 335);
+  --track-engineering-soft: oklch(0.3 0.06 235);
+  --track-future-soft:      oklch(0.3 0.07 195);
+  --track-gamedev-soft:     oklch(0.3 0.08  60);
+  --track-leadership-soft:  oklch(0.3 0.05  85);
+  --track-product-soft:     oklch(0.3 0.06 170);
+  --track-security-soft:    oklch(0.3 0.08   5);
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-signal-soft: var(--signal-soft);
+  --color-grid-line: var(--grid-line);
+  --color-grid-line-strong: var(--grid-line-strong);
+  --color-grid-now: var(--grid-now);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "ss03", "cv11";
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "ss03", "cv11";
+  }
+
+  /* Tabular numerals in mono — for the timeline axis */
+  .tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "zero", "ss02";
+    letter-spacing: -0.01em;
+  }
+
+  /* Subtle warm grain on hero/empty surfaces — atmosphere, not noise */
+  .grain {
+    position: relative;
+    isolation: isolate;
+  }
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  /* Custom scrollbars — discreet on the gantt */
+  .scroll-hairline::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .scroll-hairline::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scroll-hairline::-webkit-scrollbar-thumb {
+    background: color-mix(in oklch, var(--foreground) 14%, transparent);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+  .scroll-hairline::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklch, var(--foreground) 24%, transparent);
+    background-clip: padding-box;
+    border: 3px solid transparent;
+  }
+
+  /* Focus ring — quiet but unmistakable */
+  :where(button, a, [role="button"], input, textarea, select):focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--background),
+      0 0 0 4px var(--ring);
+    border-radius: var(--radius-md);
+  }
+
+  /* Motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ── motion keyframes ─────────────────────────────────────── */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.anim-fade-up {
+  animation: fade-up 320ms var(--ease-out-quart) both;
+}
+.anim-fade-in {
+  animation: fade-in 200ms var(--ease-out-quart) both;
+}
+
+/* ── PRINT ────────────────────────────────────────────────── */
+@media print {
+  :root {
+    --background: white;
+    --foreground: black;
+    --muted-foreground: #555;
+    --border: #d4d4d4;
+    --card: white;
+    color-scheme: light;
+  }
+  .no-print { display: none !important; }
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+  .print-only { display: revert !important; }
+  .print-break-after { page-break-after: always; }
+  .print-avoid-break { page-break-inside: avoid; }
+  a { color: black !important; text-decoration: none !important; }
+  header[data-app-header],
+  footer[data-app-footer],
+  nav[data-app-nav] {
+    display: none !important;
+  }
+}
+.print-only { display: none; }
