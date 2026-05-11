@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Plus, Trash2, Pencil, Printer, AlertTriangle, ArrowRight, Share2, Coffee, Utensils, Sparkles, Star, X } from 'lucide-react'
+import { Plus, Trash2, Pencil, Printer, AlertTriangle, ArrowRight, Share2, Coffee, Utensils, Sparkles, Star, X, Hourglass } from 'lucide-react'
 import { useScheduleStore } from '@/store/schedule'
 import {
   agenda,
   findTalk,
   formatDayLabel,
+  minutesToTime,
   overlaps,
   timeToMinutes,
   trackColorVar,
@@ -51,7 +52,7 @@ export default function MySchedule() {
   const clearOverride = useScheduleStore((s) => s.clearOverride)
 
   const [openTalk, setOpenTalk] = useState<Talk | null>(null)
-  const [customOpen, setCustomOpen] = useState<{ day: DayNum } | null>(null)
+  const [customOpen, setCustomOpen] = useState<{ day: DayNum; prefill?: GapNode } | null>(null)
   const [editingOverride, setEditingOverride] = useState<Talk | null>(null)
   const [shareOpen, setShareOpen] = useState(false)
 
@@ -158,7 +159,19 @@ export default function MySchedule() {
               </div>
 
               <ol className="space-y-2">
-                {dayItems.map((it, i) => {
+                {interleaveGaps(dayItems).map((node, i) => {
+                  if (node.kind === 'gap') {
+                    return (
+                      <GapRow
+                        key={`gap-${d.day}-${i}`}
+                        minutes={node.minutes}
+                        startTime={node.startTime}
+                        endTime={node.endTime}
+                        onFill={() => setCustomOpen({ day: d.day as DayNum, prefill: node })}
+                      />
+                    )
+                  }
+                  const it = node.item
                   const conflict = conflicts.get(it.id)
                   return (
                     <ScheduleRow
@@ -184,6 +197,7 @@ export default function MySchedule() {
       <ShareDialog open={shareOpen} onOpenChange={setShareOpen} />
       <CustomEntryDialog
         day={customOpen?.day ?? null}
+        prefill={customOpen?.prefill}
         onClose={() => setCustomOpen(null)}
       />
       <OverrideDialog
@@ -247,6 +261,44 @@ function buildItems(
     })
   }
   return items
+}
+
+/** Free-time slot between two scheduled items. */
+interface GapNode {
+  kind: 'gap'
+  minutes: number
+  startTime: string
+  endTime: string
+}
+type ItemNode = { kind: 'item'; item: ScheduleItem }
+type ListNode = ItemNode | GapNode
+
+/**
+ * Walk a sorted day's items and emit "gap" nodes for free time between them.
+ * Threshold of 10 min — anything less is just a back-to-back transition, not
+ * worth surfacing as a separate row.
+ */
+function interleaveGaps(items: ScheduleItem[]): ListNode[] {
+  const GAP_MIN = 10
+  const out: ListNode[] = []
+  for (let i = 0; i < items.length; i++) {
+    const it = items[i]
+    out.push({ kind: 'item', item: it })
+    const next = items[i + 1]
+    if (!next) continue
+    const gapStart = it.effEndMin!
+    const gapEnd = next.effStartMin!
+    const minutes = gapEnd - gapStart
+    if (minutes >= GAP_MIN) {
+      out.push({
+        kind: 'gap',
+        minutes,
+        startTime: minutesToTime(gapStart),
+        endTime: minutesToTime(gapEnd),
+      })
+    }
+  }
+  return out
 }
 
 function detectConflicts(
@@ -399,6 +451,57 @@ function ScheduleRow({
   )
 }
 
+/* ────── Gap row ────── */
+
+function GapRow({
+  minutes,
+  startTime,
+  endTime,
+  onFill,
+}: {
+  minutes: number
+  startTime: string
+  endTime: string
+  onFill: () => void
+}) {
+  return (
+    <li
+      className={cn(
+        'group relative grid gap-3 rounded-md border border-dashed bg-muted/20 px-3 sm:px-4 py-2 print-avoid-break',
+        'grid-cols-[72px_1fr_auto] sm:grid-cols-[80px_1fr_auto] items-center',
+      )}
+    >
+      <div className="flex flex-col items-end pr-3 border-r border-dashed border-border tabular text-muted-foreground">
+        <span className="text-[11px] leading-tight">{startTime}</span>
+        <span className="text-[10px] leading-tight">{endTime}</span>
+      </div>
+      <div className="flex items-center gap-2 text-xs text-muted-foreground">
+        <Hourglass className="size-3.5 opacity-70" />
+        <span className="font-medium text-foreground/80 tabular">
+          {formatGap(minutes)}
+        </span>
+        <span className="opacity-70">вільного часу</span>
+      </div>
+      <button
+        type="button"
+        onClick={onFill}
+        title="Заповнити перерву"
+        className="no-print inline-flex items-center gap-1 rounded-md border border-dashed px-2 py-1 text-[11px] font-medium text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors"
+      >
+        <Plus className="size-3" />
+        Заповнити
+      </button>
+    </li>
+  )
+}
+
+function formatGap(minutes: number): string {
+  if (minutes < 60) return `${minutes} хв`
+  const h = Math.floor(minutes / 60)
+  const m = minutes % 60
+  return m === 0 ? `${h} год` : `${h} год ${m} хв`
+}
+
 function CustomIcon({ kind }: { kind: CustomEntry['kind'] }) {
   if (kind === 'lunch') return <Utensils className="size-3" />
   if (kind === 'break') return <Coffee className="size-3" />
@@ -420,12 +523,29 @@ function EmptyState() {
 
 /* ────── Custom entry dialog ────── */
 
-function CustomEntryDialog({ day, onClose }: { day: DayNum | null; onClose: () => void }) {
+function CustomEntryDialog({
+  day,
+  prefill,
+  onClose,
+}: {
+  day: DayNum | null
+  prefill?: GapNode
+  onClose: () => void
+}) {
   const addCustom = useScheduleStore((s) => s.addCustomEntry)
   const [kind, setKind] = useState<CustomEntry['kind']>('break')
   const [title, setTitle] = useState('Кава з колегами')
   const [start, setStart] = useState('13:00')
   const [end, setEnd] = useState('14:00')
+
+  // Re-seed times whenever a new prefill arrives (e.g. clicking "Заповнити" on a gap row).
+  useEffect(() => {
+    if (prefill) {
+      setStart(prefill.startTime)
+      setEnd(prefill.endTime)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [prefill?.startTime, prefill?.endTime])
 
   const open = day !== null
   if (!day) return <DialogPrimitive.Root open={false}><></></DialogPrimitive.Root>
