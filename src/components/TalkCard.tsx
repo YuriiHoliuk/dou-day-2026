@@ -47,7 +47,7 @@ export function TalkCard({ talk, onClick, hasConflict, style, density = 'comfort
       <button
         type="button"
         onClick={onClick}
-        className="flex flex-1 flex-col gap-1 px-2.5 py-1.5 text-left min-h-0"
+        className="flex flex-1 flex-col gap-1.5 px-2.5 py-2 text-left min-h-0"
       >
         {/* meta row */}
         <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider font-semibold text-muted-foreground tabular">
